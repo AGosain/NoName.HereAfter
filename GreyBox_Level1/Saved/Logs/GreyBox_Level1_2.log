@@ -1065,3 +1065,29 @@ LogInit: Object subsystem initialized
 [2018.04.17-23.43.03:277][307]LogSavePackage: Save=740.24ms
 [2018.04.17-23.43.03:277][307]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainB96908964D98799D035FC19617E3069C.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
 [2018.04.17-23.43.03:283][307]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
+[2018.04.17-23.49.17:287][309]LogSavePackage: Save=685.45ms
+[2018.04.17-23.49.17:287][309]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainBF1853CF4A2C25B14345DAA60EA03D49.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
+[2018.04.17-23.49.17:296][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
+[2018.04.17-23.49.31:406][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.17-23.52.36:087][ 32]LogSavePackage: Save=13.15ms
+[2018.04.17-23.52.36:087][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone221FED5EE48B59A1400FE1FB1930554C1.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone2.uasset'
+[2018.04.17-23.52.36:092][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone2.uasset
+[2018.04.17-23.52.36:129][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MountainRocks/lambert1" FILE="../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset" SILENT=true
+[2018.04.17-23.52.36:144][ 32]LogSavePackage: Save=12.96ms
+[2018.04.17-23.52.36:144][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/lambert12A2B4962465D0A416A23C082D83EA730.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset'
+[2018.04.17-23.52.36:148][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset
+[2018.04.17-23.52.36:187][ 32]LogSavePackage: Save=11.47ms
+[2018.04.17-23.52.36:187][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone1880EB8664EC86D0505A969B514E671B0.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone1.uasset'
+[2018.04.17-23.52.36:191][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone1.uasset
+[2018.04.17-23.52.36:228][ 32]LogSavePackage: Save=12.27ms
+[2018.04.17-23.52.36:228][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone6623ADAF248F9617258DAEB97397846DC.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone6.uasset'
+[2018.04.17-23.52.36:232][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone6.uasset
+[2018.04.17-23.52.36:267][ 32]LogSavePackage: Save=10.25ms
+[2018.04.17-23.52.36:267][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone5D126AF7C46E3D203BC7B7CAAC50706EF.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone5.uasset'
+[2018.04.17-23.52.36:271][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone5.uasset
+[2018.04.17-23.52.36:307][ 32]LogSavePackage: Save=10.42ms
+[2018.04.17-23.52.36:307][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone421EDC32949C7D3B8CEEBC497B6DC9545.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone4.uasset'
+[2018.04.17-23.52.36:311][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone4.uasset
+[2018.04.17-23.52.36:354][ 32]LogSavePackage: Save=13.28ms
+[2018.04.17-23.52.36:354][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone32E14B9F74FEC458A74AADBAD37D6D635.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone3.uasset'
+[2018.04.17-23.52.36:360][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone3.uasset
