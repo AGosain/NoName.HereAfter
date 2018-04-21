@@ -1,4 +1,4 @@
-﻿Log file open, 04/18/18 00:32:00
+﻿Log file open, 04/21/18 17:13:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GreyBox_Level1
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-960365208) SRandInit(-960365208).
+LogInit: Display: RandInit(-1856821209) SRandInit(-1856821209).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.161743
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177225
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,900 +194,452 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.17-14.32.03:081][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.17-14.32.03:081][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.17-14.32.03:113][  0]LogInit: Computer: DESKTOP-MBKVB3K
-[2018.04.17-14.32.03:113][  0]LogInit: User: reedu
-[2018.04.17-14.32.03:114][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.04.17-14.32.03:114][  0]LogInit: High frequency timer resolution =2.338334 MHz
-[2018.04.17-14.32.03:114][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.04.17-14.32.03:114][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.17-14.32.03:114][  0]LogMemory: Process Physical Memory: 272.16 MB used, 272.16 MB peak
-[2018.04.17-14.32.03:114][  0]LogMemory: Process Virtual Memory: 269.30 MB used, 269.30 MB peak
-[2018.04.17-14.32.03:114][  0]LogMemory: Physical Memory: 4529.36 MB used,  3584.03 MB free, 8113.39 MB total
-[2018.04.17-14.32.03:114][  0]LogMemory: Virtual Memory: 678.34 MB used,  3584.03 MB free, 134217728.00 MB total
-[2018.04.17-14.32.03:394][  0]LogInit: Using OS detected language (en-US).
-[2018.04.17-14.32.03:394][  0]LogInit: Using OS detected locale (en-AU).
-[2018.04.17-14.32.03:400][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.17-14.32.04:098][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.17-14.32.04:596][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.17-14.32.04:616][  0]LogD3D11RHI:    0. 'AMD Radeon R5 M330' (Feature Level 11_0)
-[2018.04.17-14.32.04:616][  0]LogD3D11RHI:       2036/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.04.17-14.32.04:627][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2018.04.17-14.32.04:628][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.04.17-14.32.04:632][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.17-14.32.04:632][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.17-14.32.04:632][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.17-14.32.04:641][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.17-14.32.04:641][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.17-14.32.04:641][  0]LogWindows: EnumDisplayDevices:
-[2018.04.17-14.32.04:641][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2018.04.17-14.32.04:642][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2018.04.17-14.32.04:642][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2018.04.17-14.32.04:642][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.17-14.32.04:642][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R5 M330
-[2018.04.17-14.32.04:642][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.17-14.32.04:642][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.17-14.32.04:642][  0]LogRHI: Texture pool is 1425 MB (70% of 2036 MB)
-[2018.04.17-14.32.04:667][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.17-14.32.04:684][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.04.17-14.32.04:686][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/6128/).
-[2018.04.17-14.32.04:686][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/reedu/AppData/Local/Temp/UnrealShaderWorkingDir/C2A5FD154AB0C081F3F560B7C9C8ADA1/'.
-[2018.04.17-14.32.04:686][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.17-14.32.07:082][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.17-14.32.07:225][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.17-14.32.07:339][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.17-14.32.07:441][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.17-14.32.07:590][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.17-14.32.07:696][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.17-14.32.07:850][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.17-14.32.08:014][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.17-14.32.08:154][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.17-14.32.08:262][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.17-14.32.08:354][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.17-14.32.08:444][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.17-14.32.08:531][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.17-14.32.08:640][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.17-14.32.08:856][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.17-14.32.08:856][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.17-14.32.08:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.17-14.32.09:032][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.17-14.32.09:206][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.17-14.32.09:279][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.17-14.32.09:395][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.17-14.32.09:509][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.17-14.32.09:654][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.17-14.32.09:811][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.17-14.32.09:811][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.17-14.32.11:167][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.17-14.32.11:308][  0]LogDerivedDataCache: Loaded boot cache 0.14s 78MB C:/Users/reedu/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.17-14.32.11:309][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/reedu/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.17-14.32.11:309][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.17-14.32.11:309][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.17-14.32.11:309][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.17-14.32.11:309][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.17-14.32.11:337][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.17-14.32.11:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/reedu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.17-14.32.11:377][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.17-14.32.11:378][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.17-14.32.11:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.17-14.32.11:380][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.17-14.32.12:327][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.17-14.32.13:765][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.17-14.32.13:940][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.17-14.32.13:940][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.17-14.32.13:940][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.17-14.32.13:940][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.17-14.32.13:940][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.17-14.32.14:071][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2103691337)
-[2018.04.17-14.32.14:543][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
-[2018.04.17-14.32.15:903][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.144016 seconds
-[2018.04.17-14.32.15:912][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.17-14.32.15:912][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.04.17-14.32.15:912][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.17-14.32.16:041][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.17-14.33.26:570][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Intermediate/CachedAssetRegistry.bin
-[2018.04.17-14.33.27:615][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.17-14.33.27:871][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.17-14.33.29:642][  0]LogConfig: Warning: Failed to saved backup for config[TranslationPickerSettings]
-[2018.04.17-14.33.29:835][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.17-14.33.30:962][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
-[2018.04.17-14.33.30:962][  0]SourceControl: Source control is disabled
-[2018.04.17-14.33.30:963][  0]SourceControl: Source control is disabled
-[2018.04.17-14.33.31:126][  0]SourceControl: Source control is disabled
-[2018.04.17-14.33.31:272][  0]SourceControl: Source control is disabled
-[2018.04.17-14.33.33:646][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.17-14.33.34:343][  0]LogOcInput: OculusInput pre-init called
-[2018.04.17-14.33.35:164][  0]LogEngine: Initializing Engine...
-[2018.04.17-14.33.35:169][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.17-14.33.35:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.17-14.33.35:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.17-14.33.36:203][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.17-14.33.36:220][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-14.33.36:474][  0]LogInit: FAudioDevice initialized.
-[2018.04.17-14.33.36:489][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/reedu/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.17-14.33.36:513][  0]LogInit: Texture streaming: Enabled
-[2018.04.17-14.33.37:007][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.17-14.33.37:369][  0]LogInit: Transaction tracking system initialized
-[2018.04.17-14.33.38:580][  0]BlueprintLog: New page: Editor Load
-[2018.04.17-14.33.41:732][  0]LogConfig: Warning: Failed to saved backup for config[LocalizationServiceSettings]
-[2018.04.17-14.33.41:733][  0]LocalizationService: Localization service is disabled
-[2018.04.17-14.33.44:850][  0]LogConsoleResponse: Display: 
-[2018.04.17-14.33.46:210][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.17-14.33.46:210][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.17-14.33.46:210][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.17-14.33.47:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/' took 0.04s
-[2018.04.17-14.33.50:840][  0]SourceControl: Source control is disabled
-[2018.04.17-14.33.50:840][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.17-14.33.50:841][  0]LightingResults: New page: Lighting Build
-[2018.04.17-14.33.50:955][  0]MapCheck: New page: Map Check
-[2018.04.17-14.33.50:955][  0]LightingResults: New page: Lighting Build
-[2018.04.17-14.33.51:664][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.04.17-14.33.51:678][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.17-14.33.51:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.17-14.33.51:950][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 162.721ms to complete.
-[2018.04.17-14.33.51:950][  0]LogFileHelpers: Loading map 'Template_Default' took 1.110
-[2018.04.17-14.33.52:395][  0]LogCollectionManager: Loaded 0 collections in 0.003607 seconds
-[2018.04.17-14.33.52:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
-[2018.04.17-14.33.52:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Developers/reedu/Collections/' took 0.01s
-[2018.04.17-14.33.52:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
-[2018.04.17-14.33.52:548][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.17-14.33.52:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2363 classes and 519 folders.
-[2018.04.17-14.33.52:735][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.04.17-14.33.53:878][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.04.17-14.33.54:014][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.04.17-14.33.54:199][  0]LogSlate: Took 0.016664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.17-14.33.54:216][  0]LogSlate: Took 0.011579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.17-14.33.54:240][  0]LogSlate: Took 0.012961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.17-14.33.54:632][  0]LogRenderer: Reallocating scene render targets to support 736x376 Format 9 NumSamples 1 (Frame:1).
-[2018.04.17-14.33.55:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.04.17-14.33.55:966][  0]LogLoad: (Engine Initialization) Total time: 116.86 seconds
-[2018.04.17-14.33.55:966][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.17-14.33.55:967][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.04.17-14.33.55:967][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.04.17-14.33.56:380][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.04.17-14.33.56:640][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/' took 0.32s
-[2018.04.17-14.33.56:993][  2]LogAssetRegistry: Asset discovery search completed in 102.4731 seconds
-[2018.04.17-14.33.57:000][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.17-14.33.57:000][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000109 seconds (updated 0 objects)
-[2018.04.17-14.34.00:664][ 13]LogSlate: Took 0.016410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.17-14.35.43:841][718]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.17-14.35.43:850][718]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.17-14.35.43:875][718]LightingResults: New page: Lighting Build
-[2018.04.17-14.35.43:878][718]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.04.17-14.35.43:880][718]MapCheck: New page: Map Check
-[2018.04.17-14.35.43:881][718]LightingResults: New page: Lighting Build
-[2018.04.17-14.35.43:937][718]LogAIModule: Creating AISystem for world Untitled_2
-[2018.04.17-14.35.44:040][718]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.17-14.35.44:074][718]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.17-14.35.44:167][718]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.055ms to complete.
-[2018.04.17-14.35.44:167][718]LogFileHelpers: Loading map 'Template_Default' took 0.328
-[2018.04.17-14.35.56:347][197]LogSavePackage: Save=45.43ms
-[2018.04.17-14.35.56:347][197]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain6627F099464465267F19AABEBF652F19.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.35.56:350][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-14.35.56:426][197]LogSavePackage: Save=27.87ms
-[2018.04.17-14.35.56:426][197]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain_BuiltData8E22D813496B6878EA4E9B987A46DC58.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain_BuiltData.uasset'
-[2018.04.17-14.35.56:428][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain_BuiltData.uasset
-[2018.04.17-14.35.56:440][197]LogFileHelpers: Saving map 'Mountain' took 0.303
-[2018.04.17-14.35.56:442][197]Cmd: MAP LOAD FILE="../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.17-14.35.56:468][197]LightingResults: New page: Lighting Build
-[2018.04.17-14.35.56:469][197]LoadErrors: New page: Loading map: Mountain.umap
-[2018.04.17-14.35.56:470][197]MapCheck: New page: Map Check
-[2018.04.17-14.35.56:470][197]LightingResults: New page: Lighting Build
-[2018.04.17-14.35.56:517][197]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-14.35.56:633][197]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.17-14.35.56:698][197]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.17-14.35.56:780][197]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.202ms to complete.
-[2018.04.17-14.35.56:780][197]LogFileHelpers: Loading map 'Mountain' took 0.340
-[2018.04.17-14.35.56:784][197]LoadErrors: Error: /Game/Maps/Mountain : Failed import for MapBuildDataRegistry /Game/Maps/Mountain_BuiltData.Mountain_BuiltData Referenced by export Level /Game/Maps/Mountain.Mountain:PersistentLevel
-[2018.04.17-14.36.01:090][380]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.04.17-14.36.05:221][584]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.17-14.36.25:013][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb'
-[2018.04.17-14.36.25:013][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:013][554]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_Dirt : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb
-[2018.04.17-14.36.25:013][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n'
-[2018.04.17-14.36.25:013][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:013][554]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_Dirt : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n
-[2018.04.17-14.36.25:013][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s'
-[2018.04.17-14.36.25:014][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:014][554]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_Dirt : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s
-[2018.04.17-14.36.25:014][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.25:014][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:014][554]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_Dirt : Can't find file for asset. /Game/GTFreeMaterials/Textures/T_MacroVariation2
-[2018.04.17-14.36.25:014][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb'
-[2018.04.17-14.36.25:014][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n'
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s'
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.25:015][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset.
-[2018.04.17-14.36.25:017][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s'
-[2018.04.17-14.36.25:018][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s.Ground_Dirt_2k_s Referenced by MaterialExpressionTextureSample_1
-[2018.04.17-14.36.25:018][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_s' while loading NULL.
-[2018.04.17-14.36.25:018][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb'
-[2018.04.17-14.36.25:018][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb.Ground_Dirt_2k_alb Referenced by MaterialExpressionTextureSample_33
-[2018.04.17-14.36.25:018][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_alb' while loading NULL.
-[2018.04.17-14.36.25:018][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n'
-[2018.04.17-14.36.25:018][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n.Ground_Dirt_2k_n Referenced by MaterialExpressionTextureSample_34
-[2018.04.17-14.36.25:019][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_Dirt/Ground_Dirt_2k_n' while loading NULL.
-[2018.04.17-14.36.25:019][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.25:019][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_42
-[2018.04.17-14.36.25:019][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.25:019][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.25:019][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_43
-[2018.04.17-14.36.25:020][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.25:020][554]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.25:020][554]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_44
-[2018.04.17-14.36.25:020][554]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.25:042][554]LogMaterial: Missing cached shader map for material Ground_Dirt, compiling. 
-[2018.04.17-14.36.25:076][554]LogMaterial: Warning: C:\Users\reedu\OneDrive\Documents\GitHub\NoName.HereAfter\GreyBox_Level1\Content\GTFreeMaterials\Materials\Ground_Dirt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.17-14.36.25:076][554]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.04.17-14.36.29:851][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb'
-[2018.04.17-14.36.29:851][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:852][799]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_DirtBrownTan : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb
-[2018.04.17-14.36.29:852][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g'
-[2018.04.17-14.36.29:852][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:852][799]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_DirtBrownTan : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g
-[2018.04.17-14.36.29:852][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n'
-[2018.04.17-14.36.29:852][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:852][799]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_DirtBrownTan : Can't find file for asset. /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:853][799]LoadErrors: Error: /Game/GTFreeMaterials/Materials/Ground_DirtBrownTan : Can't find file for asset. /Game/GTFreeMaterials/Textures/T_MacroVariation2
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb'
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g'
-[2018.04.17-14.36.29:853][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:854][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n'
-[2018.04.17-14.36.29:854][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:854][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.29:854][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset.
-[2018.04.17-14.36.29:857][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb'
-[2018.04.17-14.36.29:857][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb.Ground_DirtBrownTan_2k_alb Referenced by MaterialExpressionTextureSample_15
-[2018.04.17-14.36.29:857][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_alb' while loading NULL.
-[2018.04.17-14.36.29:857][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n'
-[2018.04.17-14.36.29:857][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n.Ground_DirtBrownTan_2k_n Referenced by MaterialExpressionTextureSample_16
-[2018.04.17-14.36.29:857][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_n' while loading NULL.
-[2018.04.17-14.36.29:858][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.29:858][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_27
-[2018.04.17-14.36.29:858][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.29:858][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.29:858][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_28
-[2018.04.17-14.36.29:858][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.29:859][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.29:859][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_29
-[2018.04.17-14.36.29:859][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.29:859][799]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g'
-[2018.04.17-14.36.29:859][799]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g.Ground_DirtBrownTan_2k_g Referenced by MaterialExpressionTextureSample_31
-[2018.04.17-14.36.29:859][799]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Ground_DirtBrownTan/Ground_DirtBrownTan_2k_g' while loading NULL.
-[2018.04.17-14.36.29:864][799]LogMaterial: Missing cached shader map for material Ground_DirtBrownTan, compiling. 
-[2018.04.17-14.36.29:865][799]LogMaterial: Warning: C:\Users\reedu\OneDrive\Documents\GitHub\NoName.HereAfter\GreyBox_Level1\Content\GTFreeMaterials\Materials\Ground_DirtBrownTan.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.17-14.36.29:865][799]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.04.17-14.36.44:875][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
-[2018.04.17-14.36.44:875][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_ancientDiagonal.uasset.
-[2018.04.17-14.36.44:875][565]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h
-[2018.04.17-14.36.44:875][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.44:875][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_ancientDiagonal.uasset.
-[2018.04.17-14.36.44:876][565]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_ancientDiagonal : Can't find file for asset. /Game/GTFreeMaterials/Textures/T_MacroVariation2
-[2018.04.17-14.36.44:877][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
-[2018.04.17-14.36.44:877][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_ancientDiagonal.uasset.
-[2018.04.17-14.36.44:878][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.44:878][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_ancientDiagonal.uasset.
-[2018.04.17-14.36.44:882][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.44:882][565]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_25
-[2018.04.17-14.36.44:882][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.44:883][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.44:883][565]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_26
-[2018.04.17-14.36.44:883][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.44:884][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.44:884][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.44:884][565]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h'
-[2018.04.17-14.36.44:884][565]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h.Concrete_Square_2k_h Referenced by MaterialExpressionTextureSampleParameter2D_6
-[2018.04.17-14.36.44:885][565]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/Concrete_Square/Concrete_Square_2k_h' while loading NULL.
-[2018.04.17-14.36.45:194][565]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
-[2018.04.17-14.36.45:252][565]LogMaterial: Warning: C:\Users\reedu\OneDrive\Documents\GitHub\NoName.HereAfter\GreyBox_Level1\Content\GTFreeMaterials\Materials\brick_ancientDiagonal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.17-14.36.45:253][565]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
-[2018.04.17-14.36.45:253][565]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.04.17-14.36.47:835][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d'
-[2018.04.17-14.36.47:835][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:836][679]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_guiGen : Can't find file for asset. /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d
-[2018.04.17-14.36.47:836][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n'
-[2018.04.17-14.36.47:836][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:836][679]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_guiGen : Can't find file for asset. /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n
-[2018.04.17-14.36.47:836][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s'
-[2018.04.17-14.36.47:836][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:836][679]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_guiGen : Can't find file for asset. /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s
-[2018.04.17-14.36.47:837][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.47:837][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:837][679]LoadErrors: Error: /Game/GTFreeMaterials/Materials/brick_guiGen : Can't find file for asset. /Game/GTFreeMaterials/Textures/T_MacroVariation2
-[2018.04.17-14.36.47:837][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d'
-[2018.04.17-14.36.47:837][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n'
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s'
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.47:838][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/GTFreeMaterials/Materials/brick_guiGen.uasset.
-[2018.04.17-14.36.47:841][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n'
-[2018.04.17-14.36.47:841][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n.brick_guiGen_2k_n Referenced by MaterialExpressionTextureSample_69
-[2018.04.17-14.36.47:841][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_n' while loading NULL.
-[2018.04.17-14.36.47:841][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d'
-[2018.04.17-14.36.47:841][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d.brick_guiGen_2k_d Referenced by MaterialExpressionTextureSample_71
-[2018.04.17-14.36.47:841][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_d' while loading NULL.
-[2018.04.17-14.36.47:842][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.47:842][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_78
-[2018.04.17-14.36.47:842][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.47:842][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.47:842][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_79
-[2018.04.17-14.36.47:843][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.47:843][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/T_MacroVariation2'
-[2018.04.17-14.36.47:843][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/T_MacroVariation2.T_MacroVariation2 Referenced by MaterialExpressionTextureSample_80
-[2018.04.17-14.36.47:843][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/T_MacroVariation2' while loading NULL.
-[2018.04.17-14.36.47:843][679]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s'
-[2018.04.17-14.36.47:844][679]LoadErrors: Failed to load /Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s.brick_guiGen_2k_s Referenced by MaterialExpressionTextureSample_84
-[2018.04.17-14.36.47:844][679]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Textures/brick_guiGen/brick_guiGen_2k_s' while loading NULL.
-[2018.04.17-14.36.47:890][679]LogMaterial: Missing cached shader map for material brick_guiGen, compiling. 
-[2018.04.17-14.36.47:890][679]LogMaterial: Warning: C:\Users\reedu\OneDrive\Documents\GitHub\NoName.HereAfter\GreyBox_Level1\Content\GTFreeMaterials\Materials\brick_guiGen.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.17-14.36.47:890][679]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.04.17-14.37.09:592][735]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.38.56:521][378]Cmd: TRANSACTION UNDO
-[2018.04.17-14.38.56:521][378]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.40.42:833][226]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.40.44:582][226]LogSavePackage: Save=1857.68ms
-[2018.04.17-14.40.44:583][226]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainFF94E3BB461915929C27C590DAA90BFC.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.40.44:588][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-14.40.44:658][226]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.17-14.41.00:860][ 85]Cmd: TRANSACTION UNDO
-[2018.04.17-14.41.00:860][ 85]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.41.00:947][ 85]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.41.14:851][800]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-14.41.15:053][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-14.41.15:146][800]PIE: New page: PIE session: Mountain (18 Apr 2018 10:41:15 am)
-[2018.04.17-14.41.15:167][800]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-14.41.15:193][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026471s)
-[2018.04.17-14.41.15:194][800]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-14.41.15:207][800]LogPlayLevel: PIE: World Init took: (0.013509s)
-[2018.04.17-14.41.15:226][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.059022s)
-[2018.04.17-14.41.15:285][800]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-14.41.15:302][800]LogInit: FAudioDevice initialized.
-[2018.04.17-14.41.15:408][800]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-14.41.15:531][800]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 60) at 2018.04.18-00.41.15
-[2018.04.17-14.41.15:591][800]LogWorld: Bringing up level for play took: 0.062542
-[2018.04.17-14.41.15:952][800]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.04.17-14.41.16:043][800]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.768
-[2018.04.17-14.41.28:440][476]Cmd: TRANSACTION UNDO
-[2018.04.17-14.41.28:440][476]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.41.28:542][476]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.41.36:710][897]Cmd: TRANSACTION UNDO
-[2018.04.17-14.41.36:710][897]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.41.36:799][897]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.41.43:889][281]Cmd: TRANSACTION UNDO
-[2018.04.17-14.41.43:889][281]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.42.38:971][306]Cmd: TRANSACTION UNDO
-[2018.04.17-14.42.38:971][306]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.42.39:099][306]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.42.40:738][386]Cmd: TRANSACTION UNDO
-[2018.04.17-14.42.40:738][386]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.04.17-14.42.40:844][386]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.43.04:134][649]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-14.43.04:163][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-14.43.04:164][649]PIE: New page: PIE session: Mountain (18 Apr 2018 10:43:04 am)
-[2018.04.17-14.43.04:164][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-14.43.04:188][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023869s)
-[2018.04.17-14.43.04:189][649]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-14.43.04:190][649]LogPlayLevel: PIE: World Init took: (0.001889s)
-[2018.04.17-14.43.04:190][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.026228s)
-[2018.04.17-14.43.04:211][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-14.43.04:231][649]LogInit: FAudioDevice initialized.
-[2018.04.17-14.43.04:266][649]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-14.43.04:270][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 60) at 2018.04.18-00.43.04
-[2018.04.17-14.43.04:271][649]LogWorld: Bringing up level for play took: 0.004157
-[2018.04.17-14.43.04:273][649]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.998
-[2018.04.17-14.43.31:918][187]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-14.43.40:737][662]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-14.43.41:383][693]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-14.43.41:413][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-14.43.41:413][693]PIE: New page: PIE session: Mountain (18 Apr 2018 10:43:41 am)
-[2018.04.17-14.43.41:413][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-14.43.41:436][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023027s)
-[2018.04.17-14.43.41:439][693]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-14.43.41:441][693]LogPlayLevel: PIE: World Init took: (0.004210s)
-[2018.04.17-14.43.41:441][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.027879s)
-[2018.04.17-14.43.41:464][693]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-14.43.41:481][693]LogInit: FAudioDevice initialized.
-[2018.04.17-14.43.41:519][693]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-14.43.41:522][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 60) at 2018.04.18-00.43.41
-[2018.04.17-14.43.41:522][693]LogWorld: Bringing up level for play took: 0.002876
-[2018.04.17-14.43.41:524][693]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.248
-[2018.04.17-14.43.51:106][249]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-14.43.54:253][429]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-14.43.56:728][567]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-14.43.58:104][637]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-14.43.58:134][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-14.43.58:134][637]PIE: New page: PIE session: Mountain (18 Apr 2018 10:43:58 am)
-[2018.04.17-14.43.58:134][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-14.43.58:160][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025888s)
-[2018.04.17-14.43.58:161][637]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-14.43.58:162][637]LogPlayLevel: PIE: World Init took: (0.001278s)
-[2018.04.17-14.43.58:162][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.027669s)
-[2018.04.17-14.43.58:185][637]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-14.43.58:200][637]LogInit: FAudioDevice initialized.
-[2018.04.17-14.43.58:238][637]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-14.43.58:242][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 60) at 2018.04.18-00.43.58
-[2018.04.17-14.43.58:243][637]LogWorld: Bringing up level for play took: 0.004592
-[2018.04.17-14.43.58:247][637]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.971
-[2018.04.17-14.45.36:653][614]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-14.46.02:166][967]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.46.03:723][967]LogSavePackage: Save=1595.29ms
-[2018.04.17-14.46.03:723][967]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain0CF347814B42810324A4B3BDC706BCB1.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.46.03:730][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-14.47.28:404][909]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-14.47.31:564][ 47]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-14.47.31:911][ 47]LogSavePackage: Save=442.64ms
-[2018.04.17-14.47.31:911][ 47]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainFBFFF23A4691B34CCC90D2BAC6BC29EA.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.47.31:917][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-14.52.20:999][877]LogSavePackage: Save=353.06ms
-[2018.04.17-14.52.20:999][877]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain18E60D4C448439B8116092B9697A8CAD.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.52.21:004][877]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-14.54.01:582][650]LogSavePackage: Save=351.06ms
-[2018.04.17-14.54.01:582][650]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain4DF20C8A4AB49F0AFD8C24AF5720B238.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-14.54.01:586][650]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.15.17:152][189]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\reedu\Desktop\FloatingRocks.fbx)
-[2018.04.17-23.15.17:440][189]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.04.17-23.15.17:440][189]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.04.17-23.15.17:440][189]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.04.17-23.15.17:441][189]LogFbx: ItemName: Geometry, ItemCount : 6
-[2018.04.17-23.15.17:441][189]LogFbx: ItemName: Material, ItemCount : 1
-[2018.04.17-23.15.17:441][189]LogFbx: ItemName: Model, ItemCount : 6
-[2018.04.17-23.15.17:543][189]LogFbx: Loading FBX Scene from C:\Users\reedu\Desktop\FloatingRocks.fbx
-[2018.04.17-23.15.17:657][189]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.17-23.15.20:675][189]LogFbx: Loading FBX Scene from C:\Users\reedu\Desktop\FloatingRocks.fbx
-[2018.04.17-23.15.20:686][189]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.17-23.15.20:731][189]LogFbx: Warning: Triangulating static mesh pCone1
-[2018.04.17-23.15.20:833][189]LogStaticMesh: Building static mesh FloatingRocks_pCone1...
-[2018.04.17-23.15.20:899][189]LogStaticMesh: Built static mesh [0.07s] /Game/Maps/FloatingRocks_pCone1.FloatingRocks_pCone1
-[2018.04.17-23.15.21:076][189]LogFbx: Warning: Triangulating static mesh pCone2
-[2018.04.17-23.15.21:078][189]LogStaticMesh: Building static mesh FloatingRocks_pCone2...
-[2018.04.17-23.15.21:081][189]LogStaticMesh: Built static mesh [0.00s] /Game/Maps/FloatingRocks_pCone2.FloatingRocks_pCone2
-[2018.04.17-23.15.21:179][189]LogFbx: Warning: Triangulating static mesh pCone3
-[2018.04.17-23.15.21:180][189]LogStaticMesh: Building static mesh FloatingRocks_pCone3...
-[2018.04.17-23.15.21:216][189]LogStaticMesh: Built static mesh [0.04s] /Game/Maps/FloatingRocks_pCone3.FloatingRocks_pCone3
-[2018.04.17-23.15.21:253][189]LogFbx: Warning: Triangulating static mesh pCone4
-[2018.04.17-23.15.21:295][189]LogStaticMesh: Building static mesh FloatingRocks_pCone4...
-[2018.04.17-23.15.21:297][189]LogStaticMesh: Built static mesh [0.04s] /Game/Maps/FloatingRocks_pCone4.FloatingRocks_pCone4
-[2018.04.17-23.15.21:383][189]LogFbx: Warning: Triangulating static mesh pCone5
-[2018.04.17-23.15.21:414][189]LogStaticMesh: Building static mesh FloatingRocks_pCone5...
-[2018.04.17-23.15.21:416][189]LogStaticMesh: Built static mesh [0.03s] /Game/Maps/FloatingRocks_pCone5.FloatingRocks_pCone5
-[2018.04.17-23.15.21:423][189]LogFbx: Warning: Triangulating static mesh pCone6
-[2018.04.17-23.15.21:454][189]LogStaticMesh: Building static mesh FloatingRocks_pCone6...
-[2018.04.17-23.15.21:457][189]LogStaticMesh: Built static mesh [0.03s] /Game/Maps/FloatingRocks_pCone6.FloatingRocks_pCone6
-[2018.04.17-23.15.21:554][189]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.04.17-23.15.21:554][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.21:555][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.21:555][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.21:555][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.21:555][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.21:555][189]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.15.59:406][786]LogActorFactory: Actor Factory created FloatingRocks_pCone6
-[2018.04.17-23.15.59:427][786]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.15.59:428][786]LogActorFactory: Actor Factory created FloatingRocks_pCone2
-[2018.04.17-23.15.59:429][786]LogActorFactory: Actor Factory created FloatingRocks_pCone3
-[2018.04.17-23.15.59:429][786]LogActorFactory: Actor Factory created FloatingRocks_pCone4
-[2018.04.17-23.15.59:430][786]LogActorFactory: Actor Factory created FloatingRocks_pCone5
-[2018.04.17-23.16.34:483][712]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\reedu\Desktop\FloatingRocks.fbx)
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: Geometry, ItemCount : 6
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: Material, ItemCount : 1
-[2018.04.17-23.16.34:495][712]LogFbx: ItemName: Model, ItemCount : 6
-[2018.04.17-23.16.34:502][712]LogFbx: Loading FBX Scene from C:\Users\reedu\Desktop\FloatingRocks.fbx
-[2018.04.17-23.16.34:512][712]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.17-23.16.35:974][712]LogFbx: Loading FBX Scene from C:\Users\reedu\Desktop\FloatingRocks.fbx
-[2018.04.17-23.16.35:987][712]LogFbx: FBX Scene Loaded Succesfully
-[2018.04.17-23.16.35:988][712]LogLinker: Can't find file '/Game/MountainRocks/lambert1'
-[2018.04.17-23.16.35:988][712]LogLinker: Can't find file '/Game/MountainRocks/lambert1'
-[2018.04.17-23.16.36:089][712]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2018.04.17-23.16.36:276][712]LogFbx: Warning: Triangulating static mesh pCone1
-[2018.04.17-23.16.36:282][712]LogStaticMesh: Building static mesh FloatingRocks_pCone1...
-[2018.04.17-23.16.36:285][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone1.FloatingRocks_pCone1
-[2018.04.17-23.16.36:293][712]LogFbx: Warning: Triangulating static mesh pCone2
-[2018.04.17-23.16.36:294][712]LogStaticMesh: Building static mesh FloatingRocks_pCone2...
-[2018.04.17-23.16.36:299][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone2.FloatingRocks_pCone2
-[2018.04.17-23.16.36:334][712]LogFbx: Warning: Triangulating static mesh pCone3
-[2018.04.17-23.16.36:335][712]LogStaticMesh: Building static mesh FloatingRocks_pCone3...
-[2018.04.17-23.16.36:339][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone3.FloatingRocks_pCone3
-[2018.04.17-23.16.36:364][712]LogFbx: Warning: Triangulating static mesh pCone4
-[2018.04.17-23.16.36:365][712]LogStaticMesh: Building static mesh FloatingRocks_pCone4...
-[2018.04.17-23.16.36:369][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone4.FloatingRocks_pCone4
-[2018.04.17-23.16.36:399][712]LogFbx: Warning: Triangulating static mesh pCone5
-[2018.04.17-23.16.36:401][712]LogStaticMesh: Building static mesh FloatingRocks_pCone5...
-[2018.04.17-23.16.36:404][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone5.FloatingRocks_pCone5
-[2018.04.17-23.16.36:474][712]LogFbx: Warning: Triangulating static mesh pCone6
-[2018.04.17-23.16.36:475][712]LogStaticMesh: Building static mesh FloatingRocks_pCone6...
-[2018.04.17-23.16.36:480][712]LogStaticMesh: Built static mesh [0.00s] /Game/MountainRocks/FloatingRocks_pCone6.FloatingRocks_pCone6
-[2018.04.17-23.16.36:533][712]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.04.17-23.16.36:533][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.36:533][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.36:533][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.36:533][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.36:534][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.36:534][712]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2018.04.17-23.16.51:417][ 55]LogSavePackage: Save=364.36ms
-[2018.04.17-23.16.51:417][ 55]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain9D72F49549A42B8F2AA058A5CB583A34.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.16.51:420][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.17.11:606][295]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.12:442][322]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.14:445][388]Cmd: TRANSACTION UNDO
-[2018.04.17-23.17.14:445][388]LogEditorTransaction: Undo Create Actors
-[2018.04.17-23.17.28:866][840]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.28:867][840]LogActorFactory: Actor Factory created FloatingRocks_pCone2
-[2018.04.17-23.17.28:868][840]LogActorFactory: Actor Factory created FloatingRocks_pCone3
-[2018.04.17-23.17.28:869][840]LogActorFactory: Actor Factory created FloatingRocks_pCone4
-[2018.04.17-23.17.28:872][840]LogActorFactory: Actor Factory created FloatingRocks_pCone5
-[2018.04.17-23.17.28:874][840]LogActorFactory: Actor Factory created FloatingRocks_pCone6
-[2018.04.17-23.17.33:720][993]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.33:722][993]LogActorFactory: Actor Factory created FloatingRocks_pCone2
-[2018.04.17-23.17.33:723][993]LogActorFactory: Actor Factory created FloatingRocks_pCone3
-[2018.04.17-23.17.33:724][993]LogActorFactory: Actor Factory created FloatingRocks_pCone4
-[2018.04.17-23.17.33:724][993]LogActorFactory: Actor Factory created FloatingRocks_pCone5
-[2018.04.17-23.17.33:725][993]LogActorFactory: Actor Factory created FloatingRocks_pCone6
-[2018.04.17-23.17.35:945][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.35:946][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone2
-[2018.04.17-23.17.35:947][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone3
-[2018.04.17-23.17.35:948][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone4
-[2018.04.17-23.17.35:949][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone5
-[2018.04.17-23.17.35:949][ 66]LogActorFactory: Actor Factory created FloatingRocks_pCone6
-[2018.04.17-23.17.37:082][105]LogActorFactory: Actor Factory created FloatingRocks_pCone1
-[2018.04.17-23.17.37:113][105]LogActorFactory: Actor Factory created FloatingRocks_pCone2
-[2018.04.17-23.17.37:144][105]LogActorFactory: Actor Factory created FloatingRocks_pCone3
-[2018.04.17-23.17.37:175][105]LogActorFactory: Actor Factory created FloatingRocks_pCone4
-[2018.04.17-23.17.37:208][105]LogActorFactory: Actor Factory created FloatingRocks_pCone5
-[2018.04.17-23.17.37:243][105]LogActorFactory: Actor Factory created FloatingRocks_pCone6
-[2018.04.17-23.21.18:428][796]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.21.30:959][281]Cmd: TRANSACTION UNDO
-[2018.04.17-23.21.30:959][281]LogEditorTransaction: Undo Scale Actors
-[2018.04.17-23.21.31:131][284]Cmd: TRANSACTION UNDO
-[2018.04.17-23.21.31:131][284]LogEditorTransaction: Undo Reset Location
-[2018.04.17-23.21.31:339][290]Cmd: TRANSACTION UNDO
-[2018.04.17-23.21.31:339][290]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.17-23.21.31:528][295]Cmd: TRANSACTION UNDO
-[2018.04.17-23.21.31:528][295]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.17-23.21.32:037][313]Cmd: TRANSACTION UNDO
-[2018.04.17-23.21.32:037][313]LogEditorTransaction: Undo Set Location
-[2018.04.17-23.22.11:748][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.22.12:450][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone2)
-[2018.04.17-23.22.36:056][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.22.47:853][176]Cmd: DUPLICATE
-[2018.04.17-23.22.47:853][176]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.23.04:088][795]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.24.01:663][660]Cmd: DUPLICATE
-[2018.04.17-23.24.01:663][660]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.24.13:163][254]Cmd: DUPLICATE
-[2018.04.17-23.24.13:163][254]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.24.36:675][569]Cmd: DUPLICATE
-[2018.04.17-23.24.36:675][569]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.24.38:563][687]LogEditorViewport: Clicking Background
-[2018.04.17-23.24.40:717][823]Cmd: TRANSACTION UNDO
-[2018.04.17-23.24.40:718][823]LogEditorTransaction: Undo Clicking Background
-[2018.04.17-23.24.45:113][ 19]Cmd: DUPLICATE
-[2018.04.17-23.24.45:114][ 19]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.25.00:868][969]Cmd: DUPLICATE
-[2018.04.17-23.25.00:868][969]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.25.09:186][508]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.25.09:215][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.25.09:216][508]PIE: New page: PIE session: Mountain (18 Apr 2018 7:25:09 pm)
-[2018.04.17-23.25.09:217][508]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.25.09:250][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032958s)
-[2018.04.17-23.25.09:251][508]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.25.09:252][508]LogPlayLevel: PIE: World Init took: (0.001782s)
-[2018.04.17-23.25.09:252][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.035359s)
-[2018.04.17-23.25.09:278][508]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.25.09:297][508]LogInit: FAudioDevice initialized.
-[2018.04.17-23.25.09:335][508]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.25.09:341][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.25.09
-[2018.04.17-23.25.09:341][508]LogWorld: Bringing up level for play took: 0.005222
-[2018.04.17-23.25.09:343][508]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.072
-[2018.04.17-23.25.46:775][139]Cmd: DUPLICATE
-[2018.04.17-23.25.46:775][139]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.26.07:613][859]Cmd: DELETE
-[2018.04.17-23.26.07:613][859]Cmd: ACTOR DELETE
-[2018.04.17-23.26.07:662][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:663][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:663][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:663][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:663][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:663][859]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.17-23.26.07:679][859]LogEditorActor: Deleted 6 Actors (0.066 secs)
-[2018.04.17-23.26.26:872][193]LogSavePackage: Save=442.58ms
-[2018.04.17-23.26.26:872][193]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain60C74CB04E0B2D7B1BA3328469F471B4.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.26.26:878][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.27.22:594][810]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.27.22:625][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.27.22:625][810]PIE: New page: PIE session: Mountain (18 Apr 2018 7:27:22 pm)
-[2018.04.17-23.27.22:625][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.27.22:656][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030992s)
-[2018.04.17-23.27.22:658][810]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.27.22:658][810]LogPlayLevel: PIE: World Init took: (0.001782s)
-[2018.04.17-23.27.22:659][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.033300s)
-[2018.04.17-23.27.22:684][810]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.27.22:701][810]LogInit: FAudioDevice initialized.
-[2018.04.17-23.27.22:744][810]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.27.22:749][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.27.22
-[2018.04.17-23.27.22:750][810]LogWorld: Bringing up level for play took: 0.004710
-[2018.04.17-23.27.22:752][810]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain -0.519
-[2018.04.17-23.27.49:579][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone32)
-[2018.04.17-23.27.53:417][315]Cmd: DUPLICATE
-[2018.04.17-23.27.53:417][315]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.28.31:278][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.28.34:156][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone47)
-[2018.04.17-23.28.42:975][150]Cmd: DUPLICATE
-[2018.04.17-23.28.42:975][150]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.29.03:460][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.29.22:887][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone47)
-[2018.04.17-23.29.26:961][815]Cmd: DUPLICATE
-[2018.04.17-23.29.26:961][815]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.29.46:636][601]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.29.47:300][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone56)
-[2018.04.17-23.30.19:420][918]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.30.30:091][496]Cmd: TRANSACTION UNDO
-[2018.04.17-23.30.30:091][496]LogEditorTransaction: Undo Move Actors
-[2018.04.17-23.30.36:354][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.30.37:023][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone56)
-[2018.04.17-23.30.41:841][941]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.30.45:079][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone2)
-[2018.04.17-23.30.50:527][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.30.51:227][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone2)
-[2018.04.17-23.30.56:181][441]Cmd: DUPLICATE
-[2018.04.17-23.30.56:181][441]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.31.05:858][801]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.31.12:417][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.31.12:999][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone20)
-[2018.04.17-23.31.17:151][216]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.31.44:102][183]LogSavePackage: Save=624.90ms
-[2018.04.17-23.31.44:103][183]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain95B4430446958438A7148DA73241D778.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.31.44:110][183]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.32.38:439][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone65)
-[2018.04.17-23.32.47:131][509]Cmd: DUPLICATE
-[2018.04.17-23.32.47:131][509]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.33.23:079][944]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.33.23:459][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone71)
-[2018.04.17-23.33.28:680][121]Cmd: DUPLICATE
-[2018.04.17-23.33.28:680][121]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.33.42:587][667]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.33.45:532][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone74)
-[2018.04.17-23.33.52:177][ 37]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.33.55:645][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone32)
-[2018.04.17-23.33.59:034][265]Cmd: DUPLICATE
-[2018.04.17-23.33.59:034][265]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.34.07:727][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone84)
-[2018.04.17-23.34.10:079][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone84)
-[2018.04.17-23.34.23:458][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.34.25:580][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone56)
-[2018.04.17-23.34.30:733][479]Cmd: DUPLICATE
-[2018.04.17-23.34.30:733][479]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.34.38:129][768]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.34.44:022][981]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.34.44:658][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.34.45:185][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone29)
-[2018.04.17-23.34.48:206][108]Cmd: DUPLICATE
-[2018.04.17-23.34.48:206][108]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.34.55:764][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.34.56:883][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone92)
-[2018.04.17-23.34.59:980][524]Cmd: DUPLICATE
-[2018.04.17-23.34.59:980][524]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.35.08:860][866]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.35.14:753][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone74)
-[2018.04.17-23.35.23:466][420]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.35.25:671][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone62)
-[2018.04.17-23.35.29:677][655]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.35.40:737][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.35.41:485][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone98)
-[2018.04.17-23.35.44:699][214]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (FloatingRocks_pCone98)
-[2018.04.17-23.35.48:468][319]Cmd: DUPLICATE
-[2018.04.17-23.35.48:468][319]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.36.28:191][857]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.28:191][857]LogEditorTransaction: Undo Rotate Actors
-[2018.04.17-23.36.28:216][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Mountain.Mountain:PersistentLevel.FloatingRocks_pCone106.StaticMeshComponent0) Component already registered.
-[2018.04.17-23.36.28:218][857]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Mountain.Mountain:PersistentLevel.FloatingRocks_pCone110.StaticMeshComponent0) Component already registered.
-[2018.04.17-23.36.35:163][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.36.40:510][376]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.40:511][376]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.17-23.36.47:995][711]Cmd: DUPLICATE
-[2018.04.17-23.36.47:995][711]Cmd: ACTOR DUPLICATE
-[2018.04.17-23.36.54:605][125]LogEditorViewport: Clicking Background
-[2018.04.17-23.36.56:794][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingRocks_pCone116)
-[2018.04.17-23.36.58:196][369]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.58:196][369]LogEditorTransaction: Undo Rotate Actors
-[2018.04.17-23.36.58:675][387]LogEditorViewport: Clicking Background
-[2018.04.17-23.36.59:130][409]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.59:130][409]LogEditorTransaction: Undo Clicking Background
-[2018.04.17-23.36.59:543][427]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.59:543][427]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.17-23.36.59:899][445]Cmd: TRANSACTION UNDO
-[2018.04.17-23.36.59:899][445]LogEditorTransaction: Undo Clicking Background
-[2018.04.17-23.37.00:307][463]Cmd: TRANSACTION UNDO
-[2018.04.17-23.37.00:307][463]LogEditorTransaction: Undo Marquee Select
-[2018.04.17-23.37.00:745][483]Cmd: TRANSACTION UNDO
-[2018.04.17-23.37.00:745][483]LogEditorTransaction: Undo Marquee Select
-[2018.04.17-23.37.18:463][304]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.37.32:995][809]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.37.33:027][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.37.33:028][809]PIE: New page: PIE session: Mountain (18 Apr 2018 7:37:33 pm)
-[2018.04.17-23.37.33:028][809]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.37.33:069][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040532s)
-[2018.04.17-23.37.33:071][809]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.37.33:071][809]LogPlayLevel: PIE: World Init took: (0.001886s)
-[2018.04.17-23.37.33:071][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.043099s)
-[2018.04.17-23.37.33:100][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.37.33:119][809]LogInit: FAudioDevice initialized.
-[2018.04.17-23.37.33:160][809]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.37.33:173][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.37.33
-[2018.04.17-23.37.33:174][809]LogWorld: Bringing up level for play took: 0.011537
-[2018.04.17-23.37.33:176][809]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain -0.094
-[2018.04.17-23.37.50:987][627]LogSavePackage: Save=647.54ms
-[2018.04.17-23.37.50:987][627]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain15E24F694E77B99D5A61D28A9A7B9697.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.37.50:993][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.38.03:193][924]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.04:145][957]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.38.04:175][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.38.04:176][957]PIE: New page: PIE session: Mountain (18 Apr 2018 7:38:04 pm)
-[2018.04.17-23.38.04:176][957]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.38.04:209][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032992s)
-[2018.04.17-23.38.04:211][957]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.38.04:212][957]LogPlayLevel: PIE: World Init took: (0.002727s)
-[2018.04.17-23.38.04:212][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.036289s)
-[2018.04.17-23.38.04:234][957]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.38.04:251][957]LogInit: FAudioDevice initialized.
-[2018.04.17-23.38.04:286][957]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.38.04:294][957]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.38.04
-[2018.04.17-23.38.04:294][957]LogWorld: Bringing up level for play took: 0.007677
-[2018.04.17-23.38.04:296][957]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 1.025
-[2018.04.17-23.38.15:776][500]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.17:716][620]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.38.17:745][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.38.17:745][620]PIE: New page: PIE session: Mountain (18 Apr 2018 7:38:17 pm)
-[2018.04.17-23.38.17:745][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.38.17:780][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034760s)
-[2018.04.17-23.38.17:781][620]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.38.17:781][620]LogPlayLevel: PIE: World Init took: (0.001428s)
-[2018.04.17-23.38.17:782][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.036738s)
-[2018.04.17-23.38.17:807][620]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.38.17:821][620]LogInit: FAudioDevice initialized.
-[2018.04.17-23.38.17:859][620]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.38.17:871][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.38.17
-[2018.04.17-23.38.17:872][620]LogWorld: Bringing up level for play took: 0.012411
-[2018.04.17-23.38.17:874][620]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.603
-[2018.04.17-23.38.44:544][718]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.46:280][783]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.47:606][832]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.50:755][945]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.53:383][ 37]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.56:095][135]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.38.58:094][206]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.01:697][337]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.03:854][416]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.06:032][496]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.06:644][516]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.39.06:682][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.39.06:682][516]PIE: New page: PIE session: Mountain (18 Apr 2018 7:39:06 pm)
-[2018.04.17-23.39.06:682][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.39.06:713][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031446s)
-[2018.04.17-23.39.06:715][516]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.39.06:715][516]LogPlayLevel: PIE: World Init took: (0.001519s)
-[2018.04.17-23.39.06:715][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.033488s)
-[2018.04.17-23.39.06:741][516]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.39.06:755][516]LogInit: FAudioDevice initialized.
-[2018.04.17-23.39.06:791][516]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.39.06:798][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.39.06
-[2018.04.17-23.39.06:799][516]LogWorld: Bringing up level for play took: 0.007109
-[2018.04.17-23.39.06:802][516]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain -0.469
-[2018.04.17-23.39.11:949][749]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.13:516][809]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.14:610][848]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.39.14:640][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.39.14:640][848]PIE: New page: PIE session: Mountain (18 Apr 2018 7:39:14 pm)
-[2018.04.17-23.39.14:640][848]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.39.14:678][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037649s)
-[2018.04.17-23.39.14:679][848]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.39.14:679][848]LogPlayLevel: PIE: World Init took: (0.001059s)
-[2018.04.17-23.39.14:679][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.039278s)
-[2018.04.17-23.39.14:705][848]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.39.14:718][848]LogInit: FAudioDevice initialized.
-[2018.04.17-23.39.14:758][848]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.39.14:769][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.39.14
-[2018.04.17-23.39.14:770][848]LogWorld: Bringing up level for play took: 0.011169
-[2018.04.17-23.39.14:772][848]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain -0.498
-[2018.04.17-23.39.25:958][302]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.27:759][375]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.04.17-23.39.29:217][432]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.17-23.39.29:245][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.17-23.39.29:245][432]PIE: New page: PIE session: Mountain (18 Apr 2018 7:39:29 pm)
-[2018.04.17-23.39.29:246][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Mountain
-[2018.04.17-23.39.29:281][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035679s)
-[2018.04.17-23.39.29:282][432]LogAIModule: Creating AISystem for world Mountain
-[2018.04.17-23.39.29:283][432]LogPlayLevel: PIE: World Init took: (0.001167s)
-[2018.04.17-23.39.29:283][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Mountain.Mountain to /Game/Maps/UEDPIE_0_Mountain.Mountain (0.037306s)
-[2018.04.17-23.39.29:309][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.17-23.39.29:323][432]LogInit: FAudioDevice initialized.
-[2018.04.17-23.39.29:357][432]LogLoad: Game class is 'GameModeBase'
-[2018.04.17-23.39.29:368][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Mountain.Mountain up for play (max tick rate 0) at 2018.04.18-09.39.29
-[2018.04.17-23.39.29:369][432]LogWorld: Bringing up level for play took: 0.010990
-[2018.04.17-23.39.29:371][432]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Mountain 0.1
-[2018.04.17-23.40.20:472][838]LogSavePackage: Save=622.78ms
-[2018.04.17-23.40.20:472][838]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/Mountain20BE293B4F0C7E6D58D8E79CF3FD41CE.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.40.20:478][838]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.41.12:139][662]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.12:139][662]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.12:268][662]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.14:831][731]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.15:730][753]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.16:073][762]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.16:877][784]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.17:228][793]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.17:758][806]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.20:504][884]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.22:263][923]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.22:938][941]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2018.04.17-23.41.25:642][ 29]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.25:642][ 29]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.25:802][ 29]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.37:363][372]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.37:363][372]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.38:391][396]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.38:391][396]LogEditorTransaction: Undo Clicking on Actors (double-click)
-[2018.04.17-23.41.38:625][402]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.38:625][402]LogEditorTransaction: Undo Clicking on Actors (double-click)
-[2018.04.17-23.41.38:916][410]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.38:916][410]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.39:035][410]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.39:180][412]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.39:180][412]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.39:278][412]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.39:749][425]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.39:749][425]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.39:875][425]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.40:065][430]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.40:065][430]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.40:183][430]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.40:421][436]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.40:421][436]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.40:539][436]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.41.40:844][444]Cmd: TRANSACTION UNDO
-[2018.04.17-23.41.40:844][444]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.04.17-23.41.40:967][444]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.42.26:133][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.42.27:233][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.42.35:896][378]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.42.43:395][617]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.17-23.43.02:635][307]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.04.17-23.43.03:277][307]LogSavePackage: Save=740.24ms
-[2018.04.17-23.43.03:277][307]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainB96908964D98799D035FC19617E3069C.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.43.03:283][307]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.49.17:287][309]LogSavePackage: Save=685.45ms
-[2018.04.17-23.49.17:287][309]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/MountainBF1853CF4A2C25B14345DAA60EA03D49.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap'
-[2018.04.17-23.49.17:296][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/Maps/Mountain.umap
-[2018.04.17-23.49.31:406][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2018.04.17-23.52.36:087][ 32]LogSavePackage: Save=13.15ms
-[2018.04.17-23.52.36:087][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone221FED5EE48B59A1400FE1FB1930554C1.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone2.uasset'
-[2018.04.17-23.52.36:092][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone2.uasset
-[2018.04.17-23.52.36:129][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MountainRocks/lambert1" FILE="../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset" SILENT=true
-[2018.04.17-23.52.36:144][ 32]LogSavePackage: Save=12.96ms
-[2018.04.17-23.52.36:144][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/lambert12A2B4962465D0A416A23C082D83EA730.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset'
-[2018.04.17-23.52.36:148][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/lambert1.uasset
-[2018.04.17-23.52.36:187][ 32]LogSavePackage: Save=11.47ms
-[2018.04.17-23.52.36:187][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone1880EB8664EC86D0505A969B514E671B0.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone1.uasset'
-[2018.04.17-23.52.36:191][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone1.uasset
-[2018.04.17-23.52.36:228][ 32]LogSavePackage: Save=12.27ms
-[2018.04.17-23.52.36:228][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone6623ADAF248F9617258DAEB97397846DC.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone6.uasset'
-[2018.04.17-23.52.36:232][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone6.uasset
-[2018.04.17-23.52.36:267][ 32]LogSavePackage: Save=10.25ms
-[2018.04.17-23.52.36:267][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone5D126AF7C46E3D203BC7B7CAAC50706EF.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone5.uasset'
-[2018.04.17-23.52.36:271][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone5.uasset
-[2018.04.17-23.52.36:307][ 32]LogSavePackage: Save=10.42ms
-[2018.04.17-23.52.36:307][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone421EDC32949C7D3B8CEEBC497B6DC9545.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone4.uasset'
-[2018.04.17-23.52.36:311][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone4.uasset
-[2018.04.17-23.52.36:354][ 32]LogSavePackage: Save=13.28ms
-[2018.04.17-23.52.36:354][ 32]LogSavePackage: Moving '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Saved/FloatingRocks_pCone32E14B9F74FEC458A74AADBAD37D6D635.tmp' to '../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone3.uasset'
-[2018.04.17-23.52.36:360][ 32]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/reedu/OneDrive/Documents/GitHub/NoName.HereAfter/GreyBox_Level1/Content/MountainRocks/FloatingRocks_pCone3.uasset
+[2018.04.21-07.13.46:851][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-07.13.46:851][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.21-07.13.46:862][  0]LogInit: Computer: GR00VY-PC
+[2018.04.21-07.13.46:862][  0]LogInit: User: Gr00vy
+[2018.04.21-07.13.46:862][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.21-07.13.46:862][  0]LogInit: High frequency timer resolution =3.318389 MHz
+[2018.04.21-07.13.46:863][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2018.04.21-07.13.46:863][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-07.13.46:863][  0]LogMemory: Process Physical Memory: 275.90 MB used, 275.90 MB peak
+[2018.04.21-07.13.46:863][  0]LogMemory: Process Virtual Memory: 269.88 MB used, 269.88 MB peak
+[2018.04.21-07.13.46:863][  0]LogMemory: Physical Memory: 6338.05 MB used,  18176.29 MB free, 24514.34 MB total
+[2018.04.21-07.13.46:863][  0]LogMemory: Virtual Memory: 682.99 MB used,  18176.29 MB free, 134217728.00 MB total
+[2018.04.21-07.13.47:042][  0]LogInit: Using OS detected language (en-US).
+[2018.04.21-07.13.47:042][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.21-07.13.47:045][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.21-07.13.47:479][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.21-07.13.47:735][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.21-07.13.47:782][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.04.21-07.13.47:782][  0]LogD3D11RHI:       8088/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.21-07.13.47:785][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.21-07.13.47:785][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.21-07.13.47:785][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.21-07.13.47:792][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.21-07.13.47:792][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.21-07.13.47:792][  0]LogWindows: EnumDisplayDevices:
+[2018.04.21-07.13.47:792][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.04.21-07.13.47:793][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.21-07.13.47:793][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.21-07.13.47:793][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.21-07.13.47:793][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.21-07.13.47:793][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.04.21-07.13.47:793][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.21-07.13.47:793][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.21-07.13.47:793][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.04.21-07.13.47:825][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.21-07.13.47:841][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.21-07.13.47:888][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/9632/).
+[2018.04.21-07.13.47:888][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gr00vy/AppData/Local/Temp/UnrealShaderWorkingDir/7113BE9943B16D2B2A56928591B21510/'.
+[2018.04.21-07.13.47:888][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.21-07.13.48:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.21-07.13.48:934][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.21-07.13.48:994][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.21-07.13.49:058][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.21-07.13.49:116][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.21-07.13.49:181][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.21-07.13.49:249][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.21-07.13.49:309][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.21-07.13.49:368][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.21-07.13.49:437][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.21-07.13.49:493][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.21-07.13.49:558][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.21-07.13.49:615][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.21-07.13.49:671][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.21-07.13.49:784][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.21-07.13.49:784][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.21-07.13.49:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.21-07.13.49:890][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.21-07.13.49:993][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.21-07.13.50:025][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.21-07.13.50:088][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.21-07.13.50:149][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.21-07.13.50:208][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.21-07.13.50:264][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.21-07.13.50:264][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.21-07.13.50:785][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.21-07.13.50:863][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.21-07.13.50:864][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.21-07.13.50:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.21-07.13.50:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.21-07.13.50:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.21-07.13.50:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.21-07.13.50:881][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.21-07.13.50:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gr00vy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.21-07.13.50:904][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.21-07.13.50:904][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.21-07.13.50:904][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-07.13.50:905][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-07.13.51:294][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-07.13.51:670][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.21-07.13.51:721][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.21-07.13.51:721][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.21-07.13.51:721][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.21-07.13.51:721][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.21-07.13.51:721][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.21-07.13.51:749][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2103691337)
+[2018.04.21-07.13.51:919][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.04.21-07.13.52:484][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.064143 seconds
+[2018.04.21-07.13.52:493][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.21-07.13.52:493][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.21-07.13.52:493][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.21-07.13.52:561][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.21-07.13.56:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.21-07.13.56:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.21-07.13.58:494][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.21-07.13.59:426][  0]SourceControl: Source control is disabled
+[2018.04.21-07.13.59:426][  0]SourceControl: Source control is disabled
+[2018.04.21-07.13.59:540][  0]SourceControl: Source control is disabled
+[2018.04.21-07.13.59:653][  0]SourceControl: Source control is disabled
+[2018.04.21-07.14.01:239][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.21-07.14.01:752][  0]LogOcInput: OculusInput pre-init called
+[2018.04.21-07.14.02:189][  0]LogEngine: Initializing Engine...
+[2018.04.21-07.14.02:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.21-07.14.02:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.21-07.14.02:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.21-07.14.02:623][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.21-07.14.02:632][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-07.14.02:652][  0]LogInit: FAudioDevice initialized.
+[2018.04.21-07.14.02:761][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.21-07.14.02:774][  0]LogInit: Texture streaming: Enabled
+[2018.04.21-07.14.02:917][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.21-07.14.03:104][  0]LogInit: Transaction tracking system initialized
+[2018.04.21-07.14.03:534][  0]BlueprintLog: New page: Editor Load
+[2018.04.21-07.14.04:731][  0]LocalizationService: Localization service is disabled
+[2018.04.21-07.14.05:816][  0]LogConsoleResponse: Display: 
+[2018.04.21-07.14.06:019][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.21-07.14.06:020][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.21-07.14.06:020][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.21-07.14.06:444][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.02s
+[2018.04.21-07.14.07:625][  0]SourceControl: Source control is disabled
+[2018.04.21-07.14.07:625][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.21-07.14.07:625][  0]LightingResults: New page: Lighting Build
+[2018.04.21-07.14.07:678][  0]MapCheck: New page: Map Check
+[2018.04.21-07.14.07:678][  0]LightingResults: New page: Lighting Build
+[2018.04.21-07.14.07:873][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.21-07.14.07:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.21-07.14.07:894][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.21-07.14.07:959][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.564ms to complete.
+[2018.04.21-07.14.07:959][  0]LogFileHelpers: Loading map 'Template_Default' took 0.334
+[2018.04.21-07.14.08:016][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.21-07.14.08:102][  0]LogCollectionManager: Loaded 0 collections in 0.001506 seconds
+[2018.04.21-07.14.08:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
+[2018.04.21-07.14.08:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' took 0.01s
+[2018.04.21-07.14.08:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
+[2018.04.21-07.14.08:187][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.21-07.14.08:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2363 classes and 519 folders.
+[2018.04.21-07.14.08:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.21-07.14.08:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.21-07.14.08:362][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.21-07.14.08:426][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-07.14.08:429][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.21-07.14.08:434][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.21-07.14.08:532][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.04.21-07.14.08:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.21-07.14.08:685][  0]LogLoad: (Engine Initialization) Total time: 24.26 seconds
+[2018.04.21-07.14.08:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.21-07.14.08:685][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.21-07.14.08:685][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.21-07.14.08:733][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.21-07.14.08:773][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-07.14.08:810][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.09s
+[2018.04.21-07.14.08:824][  1]LogAssetRegistry: Asset discovery search completed in 16.9283 seconds
+[2018.04.21-07.14.08:826][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.21-07.14.08:826][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.04.21-07.14.12:988][441]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.21-07.14.13:129][442]Cmd: QUIT_EDITOR
+[2018.04.21-07.14.13:152][442]LogExit: Preparing to exit.
+[2018.04.21-07.14.14:033][442]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' was aborted.
+[2018.04.21-07.14.14:060][442]LogExit: Editor shut down
+[2018.04.21-07.14.14:062][442]LogExit: Transaction tracking system shut down
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.21-07.14.14:230][442]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.21-07.14.14:283][442]LogExit: Object subsystem successfully closed.
+[2018.04.21-07.14.14:426][442]LogD3D11RHI: Shutdown
+[2018.04.21-07.14.14:426][442]LogD3D11RHI: CleanupD3DDevice
+[2018.04.21-07.14.14:427][442]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.21-07.14.14:445][442]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.04.21-07.14.14:445][442]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.04.21-07.14.14:445][442]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.04.21-07.14.14:445][442]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.21-07.14.14:445][442]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.04.21-07.14.14:446][442]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Collections/' was aborted.
+[2018.04.21-07.14.14:446][442]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' was aborted.
+[2018.04.21-07.14.14:446][442]LogDirectoryWatcher: A directory notification for 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Collections/' was aborted.
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.04.21-07.14.14:446][442]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.04.21-07.14.14:447][442]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.04.21-07.14.15:251][442]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.04.21-07.14.15:252][442]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.04.21-07.14.15:315][442]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.04.21-07.14.15:316][442]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.04.21-07.14.15:387][442]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.04.21-07.14.15:388][442]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.04.21-07.14.15:388][442]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.04.21-07.14.15:388][442]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.04.21-07.14.15:388][442]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.04.21-07.14.15:388][442]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.04.21-07.14.15:389][442]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.04.21-07.14.15:490][442]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.04.21-07.14.15:590][442]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.04.21-07.14.15:591][442]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.04.21-07.14.15:591][442]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.04.21-07.14.15:591][442]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.04.21-07.14.15:591][442]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.04.21-07.14.15:593][442]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.04.21-07.14.15:599][442]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.04.21-07.14.15:599][442]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.04.21-07.14.15:599][442]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.04.21-07.14.15:600][442]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.04.21-07.14.15:604][442]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.04.21-07.14.15:605][442]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.04.21-07.14.15:899][442]LogDerivedDataCache: Shutdown
+[2018.04.21-07.14.15:899][442]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.21-07.14.15:900][442]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.21-07.14.15:900][442]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.21-07.14.15:900][442]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E489B75-46E2-3041-25FF-5EB6FEEFD23B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=c41f5ca548cb8ff0514e6e8ed5401053%7C86707eba29814c138d53ba0912e6f451%7C0c057754-6de3-4e57-8667-7bc2fb0f10e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.21-07.14.15:925][442]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.21-07.14.15:926][442]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.21-07.14.15:926][442]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.21-07.14.15:926][442]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.21-07.14.15:926][442]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.21-07.14.15:927][442]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.21-07.14.15:928][442]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.21-07.14.15:931][442]LogExit: Exiting.
+[2018.04.21-07.14.15:940][442]Log file closed, 04/21/18 17:14:15
