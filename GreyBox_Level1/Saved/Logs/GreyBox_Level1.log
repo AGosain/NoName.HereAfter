@@ -904,3 +904,237 @@ LogInit: Object subsystem initialized
 [2018.04.21-07.39.44:078][334]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
 [2018.04.21-07.39.50:387][ 88]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
 [2018.04.21-07.39.51:498][185]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-07.41.06:274][253]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-07.41.16:974][489]LogActorFactory: Actor Factory created SM_Tree02
+[2018.04.21-07.41.26:439][612]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-07.41.38:735][968]MapCheck: New page: Map Check
+[2018.04.21-07.41.38:743][968]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.21-07.41.38:743][968]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.21-07.41.38:928][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.21-07.41.38:935][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
+[2018.04.21-07.41.38:942][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy door_frame_mat, compiling. 
+[2018.04.21-07.41.38:948][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Portal2_RT_Mat, compiling. 
+[2018.04.21-07.41.38:957][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rocks01, compiling. 
+[2018.04.21-07.41.38:967][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Flower02, compiling. 
+[2018.04.21-07.41.38:978][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.04.21-07.41.38:986][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.21-07.41.38:994][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark01, compiling. 
+[2018.04.21-07.41.39:005][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeLeaves01, compiling. 
+[2018.04.21-07.41.39:782][968]TextureStreamingBuild: Display: Compiling optional shaders took 0.859 seconds.
+[2018.04.21-07.41.39:789][968]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2018.04.21-07.41.39:795][968]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.04.21-07.41.39:804][968]LightingResults: New page: Lighting Build - Apr 22, 2018, 3:41:39 AM
+[2018.04.21-07.41.39:871][968]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.21-07.41.39:871][968]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.21-07.41.39:873][968]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.21-07.41.39:874][968]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.21-07.41.39:874][968]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.21-07.41.39:875][968]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2836
+[2018.04.21-07.41.44:381][968]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.21-07.41.44:382][968]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.21-07.41.44:382][968]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.21-07.41.44:382][968]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.21-07.41.44:382][968]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.21-07.41.44:382][968]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.21-07.41.44:497][968]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.21-07.41.44:497][968]MapCheck: New page: ThreeLevels - Apr 22, 2018, 3:41:44 AM
+[2018.04.21-07.41.44:498][968]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.04.21-07.41.44:569][968]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 71.639ms to complete.
+[2018.04.21-07.41.44:592][968]LogEditorBuildUtils: Build time 0:05
+[2018.04.21-07.41.44:617][968]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.21-07.41.44:625][968]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.21-07.45.51:475][703]Job is a success!
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.145s
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport:      Indirection Texture 112x112x112 = 5.4Mb
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport:      BrickData 1280x20x5 = 4.0Mb (trimmed 22.0Mb due to 1.0Mb MaximumBrickMemoryMb)
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport:          0: 42.6% covering 100.0% of volume
+[2018.04.21-07.45.51:659][704]LogVolumetricLightmapImport:          1: 57.4% covering 2.1% of volume
+[2018.04.21-07.45.51:660][704]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 512X256)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 128X64)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 128X128)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 128X128)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2018.04.21-07.45.55:842][704]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2018.04.21-07.45.56:042][704]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 512X64)
+[2018.04.21-07.45.56:042][704]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X64)
+[2018.04.21-07.45.56:042][704]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 64X64)
+[2018.04.21-07.45.56:042][704]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 32X32)
+[2018.04.21-07.45.56:042][704]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X128)
+[2018.04.21-07.45.56:867][704]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X2048)
+[2018.04.21-07.45.56:889][704]Lightmass on GR00VY-PC: 4:11 min total, 452 ms importing, 470 ms setup, 5.69 sec photons, 4:04 min processing, 0 ms extra exporting [107/107 mappings]. Threads: 28:31 min total, 2:17 min processing.
+[2018.04.21-07.45.56:924][704]LogStaticLightingSystem: Illumination: 4:17 min (3.50 sec encoding lightmaps, 1.02 sec encoding shadowmaps)
+[2018.04.21-07.45.56:924][704]LogStaticLightingSystem: Lightmap texture memory:  12.2 MB (12.2 MB streaming, 0.0 MB non-streaming), 12 textures
+[2018.04.21-07.45.56:924][704]LogStaticLightingSystem: Shadowmap texture memory: 6.1 MB (6.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.04.21-07.45.57:525][704]DumpUnbuiltLightIteractions
+[2018.04.21-07.45.57:525][704]Lights with unbuilt interactions: 0
+[2018.04.21-07.45.57:525][704]
+[2018.04.21-07.45.57:525][704]Primitives with unbuilt interactions: 0
+[2018.04.21-07.45.57:538][705]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.21-07.45.57:538][705]MapCheck: New page: ThreeLevels - Apr 22, 2018, 3:45:57 AM
+[2018.04.21-07.45.57:607][705]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.477ms to complete.
+[2018.04.21-07.47.02:161][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.21-07.47.02:537][ 71]LogSavePackage: Save=361.91ms
+[2018.04.21-07.47.02:537][ 71]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels4C44795B47B86957FA037EB81607BAAF.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.21-07.47.02:540][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.21-07.47.02:569][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.21-07.47.03:391][ 71]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-07.47.03:426][ 71]LogSavePackage: Save=845.21ms
+[2018.04.21-07.47.03:426][ 71]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltDataD33776FC414461DB723FD18CB9F44575.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.21-07.47.03:429][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.21-07.47.14:962][852]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-07.47.36:739][396]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-07.47.38:441][580]MapCheck: New page: Map Check
+[2018.04.21-07.47.38:453][580]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.21-07.47.38:453][580]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.21-07.47.38:666][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.21-07.47.38:671][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
+[2018.04.21-07.47.38:677][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy door_frame_mat, compiling. 
+[2018.04.21-07.47.38:683][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Portal2_RT_Mat, compiling. 
+[2018.04.21-07.47.38:690][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rocks01, compiling. 
+[2018.04.21-07.47.38:699][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Flower02, compiling. 
+[2018.04.21-07.47.38:710][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.04.21-07.47.38:716][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.21-07.47.38:724][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark01, compiling. 
+[2018.04.21-07.47.38:734][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeLeaves01, compiling. 
+[2018.04.21-07.47.39:501][580]TextureStreamingBuild: Display: Compiling optional shaders took 0.840 seconds.
+[2018.04.21-07.47.39:507][580]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2018.04.21-07.47.39:512][580]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.04.21-07.47.39:521][580]LightingResults: New page: Lighting Build - Apr 22, 2018, 3:47:39 AM
+[2018.04.21-07.47.39:583][580]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.21-07.47.39:584][580]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.21-07.47.39:586][580]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.21-07.47.39:586][580]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.21-07.47.39:587][580]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.21-07.47.39:587][580]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2836
+[2018.04.21-07.47.44:096][580]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.21-07.47.44:096][580]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.21-07.47.44:096][580]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.21-07.47.44:096][580]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.21-07.47.44:096][580]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.21-07.47.44:096][580]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.21-07.47.44:211][580]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.21-07.47.44:211][580]MapCheck: New page: ThreeLevels - Apr 22, 2018, 3:47:44 AM
+[2018.04.21-07.47.44:212][580]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.04.21-07.47.44:287][580]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 75.327ms to complete.
+[2018.04.21-07.47.44:309][580]LogEditorBuildUtils: Build time 0:05
+[2018.04.21-07.47.46:404][723]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-07.47.51:110][116]Cmd: TRANSACTION UNDO
+[2018.04.21-07.47.51:110][116]LogEditorTransaction: Undo Foliage Editing
+[2018.04.21-07.47.51:125][116]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-07.51.15:517][232]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-07.52.38:768][339]Cmd: TRANSACTION UNDO
+[2018.04.21-07.52.38:768][339]LogEditorTransaction: Undo Foliage Editing
+[2018.04.21-07.52.58:647][ 81]LogEditorViewport: Clicking Background
+[2018.04.21-07.52.59:807][184]Cmd: TRANSACTION UNDO
+[2018.04.21-07.52.59:808][184]LogEditorTransaction: Undo Clicking Background
+[2018.04.21-07.53.00:119][197]Cmd: TRANSACTION UNDO
+[2018.04.21-07.53.00:119][197]LogEditorTransaction: Undo Foliage Editing
+[2018.04.21-07.53.52:542][  6]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.21-07.54.01:790][595]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.04.21-07.55.09:936][562]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.21-07.55.27:560][447]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.21-07.55.52:865][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Hallway)
+[2018.04.21-07.55.53:730][  7]Cmd: DELETE
+[2018.04.21-07.55.53:730][  7]Cmd: ACTOR DELETE
+[2018.04.21-07.55.53:736][  7]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-07.55.53:749][  7]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.21-07.57.05:018][735]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-07.57.18:874][968]LogActorFactory: Actor Factory created SM_Tree01
+[2018.04.21-07.57.19:651][ 16]LogActorFactory: Actor Factory created SM_Tree01
+[2018.04.21-07.57.21:703][211]Cmd: TRANSACTION UNDO
+[2018.04.21-07.57.21:703][211]LogEditorTransaction: Undo Create Actors
+[2018.04.21-07.57.23:233][314]LogActorFactory: Actor Factory created SM_Tree02
+[2018.04.21-07.57.23:712][341]LogActorFactory: Actor Factory created SM_Tree02
+[2018.04.21-07.57.24:164][381]Cmd: TRANSACTION UNDO
+[2018.04.21-07.57.24:164][381]LogEditorTransaction: Undo Create Actors
+[2018.04.21-07.57.25:674][483]LogActorFactory: Actor Factory created SM_Tree03
+[2018.04.21-07.57.26:104][514]LogActorFactory: Actor Factory created SM_Tree03
+[2018.04.21-07.57.26:368][534]Cmd: TRANSACTION UNDO
+[2018.04.21-07.57.26:368][534]LogEditorTransaction: Undo Create Actors
+[2018.04.21-07.57.26:859][564]LogActorFactory: Actor Factory created SM_Tree04
+[2018.04.21-07.57.27:148][583]LogActorFactory: Actor Factory created SM_Tree04
+[2018.04.21-07.57.27:621][626]Cmd: TRANSACTION UNDO
+[2018.04.21-07.57.27:621][626]LogEditorTransaction: Undo Create Actors
+[2018.04.21-07.58.57:386][718]LogSavePackage: Save=546.53ms
+[2018.04.21-07.58.57:386][718]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_Auto1CBA3CB6C4E502AF4151C19AF26309D66.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto1.umap'
+[2018.04.21-07.58.57:388][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto1.umap
+[2018.04.21-07.58.57:390][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.575
+[2018.04.21-07.58.57:390][718]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.575
+[2018.04.21-07.58.57:393][718]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/lambert1] ([1] browsable assets)...
+[2018.04.21-07.58.57:413][718]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Maps/lambert1.lambert1]
+[2018.04.21-07.58.57:413][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/lambert1]
+[2018.04.21-07.58.57:413][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/lambert1" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/lambert1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.04.21-07.58.57:434][718]LogSavePackage: Save=17.35ms
+[2018.04.21-07.58.57:434][718]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/lambert1_Auto11234A68D4AE585E5954510BAB9980E9F.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/lambert1_Auto1.uasset'
+[2018.04.21-07.58.57:435][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/lambert1_Auto1.uasset
+[2018.04.21-07.58.57:435][718]LogFileHelpers: Auto-saving content packages took 0.043
+[2018.04.21-08.04.11:363][938]Job is a success!
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.143s
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:      Indirection Texture 112x112x112 = 5.4Mb
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:      BrickData 1280x20x5 = 4.0Mb (trimmed 16.2Mb due to 1.0Mb MaximumBrickMemoryMb)
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:          0: 37.7% covering 100.0% of volume
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:          1: 62.3% covering 2.6% of volume
+[2018.04.21-08.04.11:553][939]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 4096X2048)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 4096X4096)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 4096X4096)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 128X64)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 128X128)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 128X128)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 64X32)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2018.04.21-08.04.22:071][939]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2018.04.21-08.04.22:271][939]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X128)
+[2018.04.21-08.04.22:271][939]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X128)
+[2018.04.21-08.04.22:271][939]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 512X64)
+[2018.04.21-08.04.22:272][939]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2018.04.21-08.04.22:272][939]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.04.21-08.04.22:272][939]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 128X64)
+[2018.04.21-08.04.24:217][939]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 4096X2048)
+[2018.04.21-08.04.24:245][939]Lightmass on GR00VY-PC: 16:39 min total, 459 ms importing, 617 ms setup, 10.9 sec photons, 16:27 min processing, 0 ms extra exporting [155/155 mappings]. Threads: 1:55:09 hours total, 5:25 min processing.
+[2018.04.21-08.04.24:286][939]LogStaticLightingSystem: Illumination: 16:44 min (8.88 sec encoding lightmaps, 2.14 sec encoding shadowmaps)
+[2018.04.21-08.04.24:286][939]LogStaticLightingSystem: Lightmap texture memory:  44.3 MB (44.3 MB streaming, 0.0 MB non-streaming), 14 textures
+[2018.04.21-08.04.24:286][939]LogStaticLightingSystem: Shadowmap texture memory: 11.6 MB (11.6 MB streaming, 0.0 MB non-streaming), 7 textures
+[2018.04.21-08.04.29:648][939]DumpUnbuiltLightIteractions
+[2018.04.21-08.04.29:648][939]Lights with unbuilt interactions: 0
+[2018.04.21-08.04.29:648][939]
+[2018.04.21-08.04.29:648][939]Primitives with unbuilt interactions: 0
+[2018.04.21-08.04.29:657][940]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.21-08.04.29:657][940]MapCheck: New page: ThreeLevels - Apr 22, 2018, 4:04:29 AM
+[2018.04.21-08.04.29:742][940]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.213ms to complete.
+[2018.04.21-08.04.32:269][222]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.21-08.04.33:071][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.21-08.04.33:446][294]LogSavePackage: Save=359.95ms
+[2018.04.21-08.04.33:446][294]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels911E7A76485361ACA7EF1FA35213B24D.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.21-08.04.33:450][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.21-08.04.33:478][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.21-08.04.35:348][294]LogSavePackage: Save=1843.39ms
+[2018.04.21-08.04.35:348][294]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData886342214DBC7C132E353AAB72E5437B.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.21-08.04.35:353][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
