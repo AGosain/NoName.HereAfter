@@ -10671,3 +10671,631 @@ LogInit: Object subsystem initialized
 [2018.04.21-09.07.59:097][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
 [2018.04.21-09.07.59:108][457]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(None)
 [2018.04.21-09.07.59:108][457]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(None)
+[2018.04.21-09.09.04:479][  5]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-09.09.04:489][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-09.09.04:489][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-09.09.04:489][  5]PIE: New page: PIE session: ThreeLevels (Apr 22, 2018, 5:09:04 AM)
+[2018.04.21-09.09.04:490][  5]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThreeLevels
+[2018.04.21-09.09.04:502][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012569s)
+[2018.04.21-09.09.04:503][  5]LogAIModule: Creating AISystem for world ThreeLevels
+[2018.04.21-09.09.04:503][  5]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2018.04.21-09.09.04:503][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThreeLevels.ThreeLevels to /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels (0.013505s)
+[2018.04.21-09.09.04:515][  5]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-09.09.04:524][  5]LogInit: FAudioDevice initialized.
+[2018.04.21-09.09.04:556][  5]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.21-09.09.04:559][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels up for play (max tick rate 0) at 2018.04.21-19.09.04
+[2018.04.21-09.09.04:559][  5]LogWorld: Bringing up level for play took: 0.002981
+[2018.04.21-09.09.04:561][  5]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:561][  5]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:561][  5]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:561][  5]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThreeLevels -0.393
+[2018.04.21-09.09.04:562][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-09.09.04:826][ 34]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:834][ 35]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:843][ 36]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:843][ 36]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:851][ 37]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:851][ 37]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:859][ 38]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:860][ 38]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:867][ 39]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:876][ 40]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.04:876][ 40]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:303][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:322][ 93]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:339][ 95]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:340][ 95]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:347][ 96]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:364][ 98]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:365][ 98]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:372][ 99]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:381][100]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:381][100]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:389][101]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:389][101]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:397][102]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:406][103]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:406][103]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:414][104]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:422][105]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:423][105]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:431][106]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:448][108]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:448][108]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:465][110]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-09.09.05:758][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-09.09.05:793][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-10.56.54:550][359]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-10.56.54:562][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-10.56.54:562][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-10.56.54:562][359]PIE: New page: PIE session: ThreeLevels (Apr 22, 2018, 6:56:54 AM)
+[2018.04.21-10.56.54:562][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThreeLevels
+[2018.04.21-10.56.54:577][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014792s)
+[2018.04.21-10.56.54:578][359]LogAIModule: Creating AISystem for world ThreeLevels
+[2018.04.21-10.56.54:578][359]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2018.04.21-10.56.54:578][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThreeLevels.ThreeLevels to /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels (0.015968s)
+[2018.04.21-10.56.54:591][359]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-10.56.54:603][359]LogInit: FAudioDevice initialized.
+[2018.04.21-10.56.54:633][359]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.21-10.56.54:637][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels up for play (max tick rate 0) at 2018.04.21-20.56.54
+[2018.04.21-10.56.54:637][359]LogWorld: Bringing up level for play took: 0.003228
+[2018.04.21-10.56.54:639][359]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:639][359]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:639][359]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:639][359]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThreeLevels -0.315
+[2018.04.21-10.56.54:640][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-10.56.54:675][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:675][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:691][362]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:692][362]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:700][363]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:701][363]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:708][364]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:717][365]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:725][366]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:725][366]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:733][367]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:733][367]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:741][368]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:742][368]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:992][398]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.54:999][399]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:000][399]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:008][400]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:016][401]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:017][401]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:025][402]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:025][402]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:033][403]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:033][403]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:041][404]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:041][404]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:050][405]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:050][405]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:058][406]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:058][406]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:066][407]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:067][407]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:075][408]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:075][408]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:083][409]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:091][410]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:092][410]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:100][411]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:100][411]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:108][412]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:109][412]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:117][413]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:117][413]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:125][414]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:125][414]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:133][415]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:133][415]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:141][416]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:142][416]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:150][417]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:150][417]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:158][418]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:158][418]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:166][419]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:167][419]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:175][420]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:175][420]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:183][421]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:183][421]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:191][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:200][423]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:200][423]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:208][424]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:209][424]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:217][425]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:217][425]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:225][426]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:225][426]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:233][427]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:233][427]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:241][428]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:242][428]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:250][429]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:250][429]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:258][430]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:258][430]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:266][431]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:275][432]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:275][432]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:284][433]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:284][433]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:292][434]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:292][434]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:300][435]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:301][435]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:308][436]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:309][436]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:317][437]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:317][437]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:325][438]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:333][439]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:342][440]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:350][441]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:351][441]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:358][442]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:359][442]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:367][443]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:375][444]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:383][445]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:392][446]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:400][447]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:409][448]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:417][449]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:425][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:434][451]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:443][452]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:452][453]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:452][453]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:459][454]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:468][455]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:477][456]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:525][461]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:567][466]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:575][467]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:583][468]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:584][468]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:592][469]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:600][470]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:608][471]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:617][472]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:617][472]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:625][473]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:634][474]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:634][474]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:642][475]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:642][475]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:650][476]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:658][477]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:675][479]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:683][480]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:692][481]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:700][482]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:708][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:709][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:717][484]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:725][485]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:734][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:742][487]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:743][487]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:750][488]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:751][488]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:759][489]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:759][489]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:767][490]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:767][490]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:775][491]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:776][491]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:784][492]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:792][493]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:800][494]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.55:825][497]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:175][539]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:176][539]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:184][540]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:192][541]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:200][542]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:209][543]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:209][543]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:217][544]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:225][545]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:226][545]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:234][546]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:234][546]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:242][547]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:242][547]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:251][548]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:251][548]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:259][549]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:259][549]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:268][550]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:276][551]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:284][552]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:292][553]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:301][554]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:310][555]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:317][556]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:326][557]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:334][558]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:342][559]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:350][560]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:368][562]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:368][562]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:384][564]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:393][565]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:394][565]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:402][566]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:410][567]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:411][567]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:419][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:427][569]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:428][569]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:435][570]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:436][570]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:444][571]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:444][571]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:452][572]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:453][572]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:461][573]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:469][574]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:469][574]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:477][575]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:478][575]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:485][576]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:494][577]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:495][577]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:502][578]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:503][578]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:511][579]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:519][580]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:527][581]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:535][582]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:544][583]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:552][584]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:560][585]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:569][586]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:577][587]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:585][588]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:594][589]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:602][590]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:610][591]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:618][592]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.56:819][616]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.57:294][673]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.57:577][707]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-10.56.57:644][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-10.56.57:679][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-11.15.05:858][967]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{7f92bb38-d3da-4630-9f1e-55aa60e017da} was removed. Shutting down audio device.
+[2018.04.21-11.15.05:858][967]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-11.15.10:526][981]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.21-11.15.18:862][  6]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-11.16.41:412][727]Cmd: MODE GRID=0
+[2018.04.21-11.16.42:359][839]Cmd: MODE ROTGRID=0
+[2018.04.21-11.16.43:125][929]Cmd: MODE SCALEGRID=0
+[2018.04.21-11.25.49:257][461]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-11.25.55:881][229]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-11.25.59:519][617]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.21-11.26.00:332][688]MapCheck: New page: Map Check
+[2018.04.21-11.26.00:339][688]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.21-11.26.00:339][688]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.21-11.26.00:622][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.21-11.26.00:629][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, compiling. 
+[2018.04.21-11.26.00:635][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy door_frame_mat, compiling. 
+[2018.04.21-11.26.00:641][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Portal2_RT_Mat, compiling. 
+[2018.04.21-11.26.00:650][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rocks01, compiling. 
+[2018.04.21-11.26.00:659][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Flower02, compiling. 
+[2018.04.21-11.26.00:669][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.21-11.26.00:678][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark01, compiling. 
+[2018.04.21-11.26.00:688][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeLeaves01, compiling. 
+[2018.04.21-11.26.00:699][688]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.04.21-11.26.01:498][688]TextureStreamingBuild: Display: Compiling optional shaders took 0.881 seconds.
+[2018.04.21-11.26.01:506][688]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2018.04.21-11.26.01:515][688]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2018.04.21-11.26.01:525][688]LightingResults: New page: Lighting Build - Apr 22, 2018, 7:26:01 AM
+[2018.04.21-11.26.01:593][688]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent was too big and it was automatically reduced. Consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.21-11.26.01:593][688]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.21-11.26.01:594][688]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.21-11.26.01:596][688]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.21-11.26.01:597][688]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.21-11.26.01:597][688]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.21-11.26.01:597][688]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2836
+[2018.04.21-11.26.06:106][688]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.21-11.26.06:107][688]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.21-11.26.06:107][688]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.21-11.26.06:107][688]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.21-11.26.06:107][688]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.21-11.26.06:107][688]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.21-11.26.06:230][688]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.21-11.26.06:231][688]MapCheck: New page: ThreeLevels - Apr 22, 2018, 7:26:06 AM
+[2018.04.21-11.26.06:231][688]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.04.21-11.26.06:309][688]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 78.957ms to complete.
+[2018.04.21-11.26.06:332][688]LogEditorBuildUtils: Build time 0:05
+[2018.04.21-11.26.25:812][746]LogSavePackage: Save=574.16ms
+[2018.04.21-11.26.25:812][746]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_Auto38E5AFF8744E1EFC68E0B02B05A603B4B.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto3.umap'
+[2018.04.21-11.26.25:814][746]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto3.umap
+[2018.04.21-11.26.25:816][746]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.599
+[2018.04.21-11.26.25:816][746]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.599
+[2018.04.21-11.28.14:201][900]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-11.29.58:926][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Flower3)
+[2018.04.21-11.30.03:619][428]Cmd: DELETE
+[2018.04.21-11.30.03:619][428]Cmd: ACTOR DELETE
+[2018.04.21-11.30.03:626][428]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.03:637][428]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.21-11.30.04:234][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass02)
+[2018.04.21-11.30.04:387][481]Cmd: DELETE
+[2018.04.21-11.30.04:387][481]Cmd: ACTOR DELETE
+[2018.04.21-11.30.04:393][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.04:406][481]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.21-11.30.04:950][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass3)
+[2018.04.21-11.30.05:044][537]Cmd: DELETE
+[2018.04.21-11.30.05:044][537]Cmd: ACTOR DELETE
+[2018.04.21-11.30.05:050][537]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.05:061][537]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.21-11.30.05:526][582]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.04.21-11.30.05:629][585]Cmd: DELETE
+[2018.04.21-11.30.05:629][585]Cmd: ACTOR DELETE
+[2018.04.21-11.30.05:635][585]LogEditorActor: Deleted Actor: Landscape
+[2018.04.21-11.30.05:661][585]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.04.21-11.30.07:137][730]Cmd: TRANSACTION UNDO
+[2018.04.21-11.30.07:137][730]LogEditorTransaction: Undo Delete Actors
+[2018.04.21-11.30.08:278][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Flower02)
+[2018.04.21-11.30.09:094][834]Cmd: DELETE
+[2018.04.21-11.30.09:094][834]Cmd: ACTOR DELETE
+[2018.04.21-11.30.09:101][834]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.09:112][834]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.21-11.30.09:895][910]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.04.21-11.30.10:361][933]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.04.21-11.30.10:813][961]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.04.21-11.30.13:226][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass03)
+[2018.04.21-11.30.14:233][148]Cmd: DELETE
+[2018.04.21-11.30.14:233][148]Cmd: ACTOR DELETE
+[2018.04.21-11.30.14:239][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.14:253][148]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.21-11.30.18:890][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2018.04.21-11.30.19:804][623]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock6)
+[2018.04.21-11.30.20:594][659]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock05)
+[2018.04.21-11.30.21:398][697]Cmd: DELETE
+[2018.04.21-11.30.21:398][697]Cmd: ACTOR DELETE
+[2018.04.21-11.30.21:405][697]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.21:405][697]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.21:405][697]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-11.30.21:416][697]LogEditorActor: Deleted 3 Actors (0.018 secs)
+[2018.04.21-11.34.03:918][561]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.21-11.34.07:441][712]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-11.34.07:965][731]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-11.36.35:707][122]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-11.36.45:743][543]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-11.36.46:093][556]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-11.40.53:043][495]LogSavePackage: Save=536.35ms
+[2018.04.21-11.40.53:043][495]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_Auto4DBA021964261482AF9BDEB80FEEF7AA3.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto4.umap'
+[2018.04.21-11.40.53:045][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto4.umap
+[2018.04.21-11.40.53:048][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.562
+[2018.04.21-11.40.53:048][495]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.562
+[2018.04.21-11.49.58:451][343]Cmd: TRANSACTION UNDO
+[2018.04.21-11.49.58:451][343]LogEditorTransaction: Undo Edit Shadow Exponent
+[2018.04.21-11.49.58:934][367]Cmd: TRANSACTION UNDO
+[2018.04.21-11.49.58:934][367]LogEditorTransaction: Undo Edit Volumetric Scattering Intensity
+[2018.04.21-11.49.59:312][388]Cmd: TRANSACTION UNDO
+[2018.04.21-11.49.59:313][388]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2018.04.21-11.49.59:705][413]Cmd: TRANSACTION UNDO
+[2018.04.21-11.49.59:705][413]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.21-11.50.00:148][442]Cmd: TRANSACTION UNDO
+[2018.04.21-11.50.00:148][442]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.21-11.50.00:589][471]Cmd: TRANSACTION UNDO
+[2018.04.21-11.50.00:589][471]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.04.21-11.50.01:163][507]Cmd: TRANSACTION UNDO
+[2018.04.21-11.50.01:163][507]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.04.21-11.50.02:401][583]Cmd: TRANSACTION UNDO
+[2018.04.21-11.50.02:401][583]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.21-11.50.04:783][742]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.04:783][742]LogEditorTransaction: Redo Clicking on Actors
+[2018.04.21-11.50.06:032][816]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:032][816]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2018.04.21-11.50.06:213][824]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:213][824]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2018.04.21-11.50.06:385][834]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:385][834]LogEditorTransaction: Redo Clicking on Actors
+[2018.04.21-11.50.06:566][844]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:566][844]LogEditorTransaction: Redo Clicking on Actors
+[2018.04.21-11.50.06:727][852]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:727][852]LogEditorTransaction: Redo Edit Indirect Lighting Intensity
+[2018.04.21-11.50.06:918][862]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.06:918][862]LogEditorTransaction: Redo Edit Volumetric Scattering Intensity
+[2018.04.21-11.50.07:092][873]Cmd: TRANSACTION REDO
+[2018.04.21-11.50.07:092][873]LogEditorTransaction: Redo Edit Shadow Exponent
+[2018.04.21-11.55.05:899][296]LogSavePackage: Save=506.03ms
+[2018.04.21-11.55.05:900][296]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_Auto5CEA28ACA44FE793747054E9C91B3C0A2.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto5.umap'
+[2018.04.21-11.55.05:901][296]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto5.umap
+[2018.04.21-11.55.05:903][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.529
+[2018.04.21-11.55.05:903][296]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.529
+[2018.04.21-12.03.02:114][845]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.03.05:217][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.05.01:578][337]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-12.05.08:064][684]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.06.11:973][434]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.18.46:111][138]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-12.19.00:439][ 52]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.04.21-12.39.53:051][ 20]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.21-12.39.55:744][248]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.39.56:374][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.21-12.41.39:355][954]Job is a success!
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.207s
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:      Indirection Texture 112x112x112 = 5.4Mb
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:      BrickData 1280x25x5 = 5.0Mb (trimmed 23.8Mb due to 1.0Mb MaximumBrickMemoryMb)
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:          0: 28.5% covering 100.0% of volume
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:          1: 71.5% covering 3.9% of volume
+[2018.04.21-12.41.39:944][955]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.04.21-12.41.47:880][955]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 4096X2048)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 4096X4096)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 4096X4096)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2018.04.21-12.41.47:881][955]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2018.04.21-12.41.47:886][955]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 64X64)
+[2018.04.21-12.41.47:912][955]Lightmass on GR00VY-PC: 1:15:40 hours total, 406 ms importing, 852 ms setup, 14.7 sec photons, 1:15:24 hours processing, 0 ms extra exporting [246/246 mappings]. Threads: 8:47:51 hours total, 4:40 min processing.
+[2018.04.21-12.41.47:981][955]LogStaticLightingSystem: Illumination: 1:15:46 hours (6.98 sec encoding lightmaps, 1 ms encoding shadowmaps)
+[2018.04.21-12.41.47:981][955]LogStaticLightingSystem: Lightmap texture memory:  44.1 MB (44.1 MB streaming, 0.0 MB non-streaming), 12 textures
+[2018.04.21-12.41.47:981][955]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.04.21-12.41.53:579][955]DumpUnbuiltLightIteractions
+[2018.04.21-12.41.53:579][955]Lights with unbuilt interactions: 0
+[2018.04.21-12.41.53:579][955]
+[2018.04.21-12.41.53:579][955]Primitives with unbuilt interactions: 0
+[2018.04.21-12.41.53:594][956]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.21-12.41.53:594][956]MapCheck: New page: ThreeLevels - Apr 22, 2018, 8:41:53 AM
+[2018.04.21-12.41.53:681][956]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.891ms to complete.
+[2018.04.21-12.41.55:062][964]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.04.21-12.41.59:312][425]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-12.41.59:324][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-12.41.59:325][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-12.41.59:325][425]PIE: New page: PIE session: ThreeLevels (Apr 22, 2018, 8:41:59 AM)
+[2018.04.21-12.41.59:325][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThreeLevels
+[2018.04.21-12.41.59:343][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018482s)
+[2018.04.21-12.41.59:344][425]LogAIModule: Creating AISystem for world ThreeLevels
+[2018.04.21-12.41.59:344][425]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.04.21-12.41.59:345][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThreeLevels.ThreeLevels to /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels (0.019787s)
+[2018.04.21-12.41.59:360][425]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-12.41.59:373][425]LogInit: FAudioDevice initialized.
+[2018.04.21-12.41.59:409][425]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.21-12.41.59:413][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThreeLevels.ThreeLevels up for play (max tick rate 0) at 2018.04.21-22.41.59
+[2018.04.21-12.41.59:414][425]LogWorld: Bringing up level for play took: 0.003806
+[2018.04.21-12.41.59:415][425]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:415][425]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:416][425]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:416][425]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThreeLevels 0.462
+[2018.04.21-12.41.59:417][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-12.41.59:449][426]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:691][455]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:691][455]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:699][456]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:699][456]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:707][457]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:708][457]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:715][458]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:717][458]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:724][459]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:725][459]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:732][460]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:733][460]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:741][461]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:741][461]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:749][462]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:749][462]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:750][462]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:757][463]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:758][463]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:758][463]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:766][464]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:766][464]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:766][464]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:774][465]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:774][465]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:775][465]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:782][466]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:783][466]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:783][466]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:791][467]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:791][467]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:791][467]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:799][468]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:799][468]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:807][469]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:816][470]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:816][470]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:824][471]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:832][472]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:832][472]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:840][473]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:849][474]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:857][475]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:866][476]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:874][477]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:874][477]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:882][478]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:882][478]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:891][479]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:891][479]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:899][480]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:900][480]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:900][480]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:907][481]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:908][481]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:908][481]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:916][482]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:916][482]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:916][482]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:924][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:924][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:925][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:932][484]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:933][484]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:933][484]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:941][485]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:941][485]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:942][485]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:950][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:950][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:950][486]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:958][487]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:958][487]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:958][487]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:966][488]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:966][488]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:974][489]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:974][489]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:982][490]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:983][490]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:991][491]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:991][491]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.41.59:999][492]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:007][493]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:016][494]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:024][495]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:032][496]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:041][497]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:049][498]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:050][498]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:058][499]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:066][500]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:066][500]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:074][501]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:083][502]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:083][502]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:091][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:099][504]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:100][504]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:108][505]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:108][505]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:116][506]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:124][507]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:208][517]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:266][524]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:266][524]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:291][527]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_0)
+[2018.04.21-12.42.00:367][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-12.42.00:401][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels' with GeneratedClass '/Game/Maps/ThreeLevels.ThreeLevels_C' with ClassGeneratedBy '/Game/Maps/ThreeLevels.ThreeLevels:PersistentLevel.ThreeLevels'
+[2018.04.21-12.42.01:132][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.21-12.42.01:519][618]LogSavePackage: Save=371.94ms
+[2018.04.21-12.42.01:519][618]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels2E55844943045BBE46EB5EB7109239C5.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.21-12.42.01:523][618]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.21-12.42.01:540][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.21-12.42.02:952][618]LogSavePackage: Save=1359.35ms
+[2018.04.21-12.42.02:952][618]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData697F02FB45161A12DCFDF6AF2D691A47.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.21-12.42.02:978][618]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
