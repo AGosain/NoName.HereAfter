@@ -2079,3 +2079,190 @@ LogInit: Object subsystem initialized
 [2018.04.22-05.54.47:940][484]LogSavePackage: Save=2187.90ms
 [2018.04.22-05.54.47:940][484]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData14334B094364A9CEA90CCB8D7D600AA1.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
 [2018.04.22-05.54.47:951][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-05.56.32:019][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-05.56.32:381][826]LogSavePackage: Save=350.97ms
+[2018.04.22-05.56.32:382][826]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsAEF9D39F497547A4BAEE2F9A08AD324B.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-05.56.32:384][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-05.56.32:402][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-05.56.34:526][826]LogSavePackage: Save=2122.88ms
+[2018.04.22-05.56.34:526][826]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData07A031884860F699D563EC8A466FAC28.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-05.56.34:544][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-05.56.45:189][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-05.56.45:553][ 51]LogSavePackage: Save=353.41ms
+[2018.04.22-05.56.45:553][ 51]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels8B91B54B4ADC71ACDA567F9135D83597.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-05.56.45:557][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-05.56.45:575][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-05.56.47:705][ 51]LogSavePackage: Save=2127.79ms
+[2018.04.22-05.56.47:705][ 51]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltDataD6F941BA4E9F8DC170C9EE84C4D233B0.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-05.56.47:715][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-05.56.49:802][298]MapCheck: New page: Map Check
+[2018.04.22-05.56.49:814][298]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.22-05.56.49:814][298]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.22-05.56.50:007][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.22-05.56.50:013][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
+[2018.04.22-05.56.50:020][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy door_frame_mat, compiling. 
+[2018.04.22-05.56.50:025][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Portal2_RT_Mat, compiling. 
+[2018.04.22-05.56.50:032][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.04.22-05.56.50:041][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rocks01, compiling. 
+[2018.04.22-05.56.50:050][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark01, compiling. 
+[2018.04.22-05.56.50:060][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeLeaves01, compiling. 
+[2018.04.22-05.56.50:071][298]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.04.22-05.56.50:751][298]TextureStreamingBuild: Display: Compiling optional shaders took 0.748 seconds.
+[2018.04.22-05.56.50:755][298]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
+[2018.04.22-05.56.50:761][298]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.04.22-05.56.50:770][298]LightingResults: New page: Lighting Build - Apr 23, 2018, 1:56:50 AM
+[2018.04.22-05.56.50:835][298]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent was too big and it was automatically reduced. Consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.22-05.56.50:835][298]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2018.04.22-05.56.50:835][298]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.22-05.56.50:838][298]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.22-05.56.50:838][298]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.22-05.56.50:839][298]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.22-05.56.50:839][298]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7664
+[2018.04.22-05.56.55:347][298]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.22-05.56.55:347][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.22-05.56.55:347][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.22-05.56.55:347][298]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.22-05.56.55:347][298]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.22-05.56.55:347][298]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.22-05.56.55:468][298]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.22-05.56.55:468][298]MapCheck: New page: ThreeLevels - Apr 23, 2018, 1:56:55 AM
+[2018.04.22-05.56.55:469][298]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.04.22-05.56.55:541][298]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 72.879ms to complete.
+[2018.04.22-05.56.55:563][298]LogEditorBuildUtils: Build time 0:05
+[2018.04.22-05.57.05:947][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.22-05.57.07:943][335]LogSlate: Took 0.005932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.22-05.59.58:314][836]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{7f92bb38-d3da-4630-9f1e-55aa60e017da} was removed. Shutting down audio device.
+[2018.04.22-05.59.58:327][836]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.22-06.00.04:442][156]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.22-06.00.36:776][253]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.22-06.02.01:961][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-06.02.02:506][392]LogSavePackage: Save=527.95ms
+[2018.04.22-06.02.02:506][392]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels01D6D93D4727A701390B91AAD45E8B94.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-06.02.02:509][392]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-06.02.02:550][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-06.02.05:532][392]LogSavePackage: Save=2878.70ms
+[2018.04.22-06.02.05:533][392]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData05FF943F4C8F42BE4E1825A013B279CC.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-06.02.05:550][392]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-08.38.37:741][153]Cmd: SELECT NONE
+[2018.04.22-08.39.22:535][567]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{7f92bb38-d3da-4630-9f1e-55aa60e017da} was removed. Shutting down audio device.
+[2018.04.22-08.39.22:535][567]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.22-08.39.31:210][593]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.22-08.48.36:527][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-08.48.37:055][758]LogSavePackage: Save=511.65ms
+[2018.04.22-08.48.37:055][758]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsD637C1D842418F6EE9B6C993523B0551.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-08.48.37:058][758]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-08.48.37:079][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-08.48.39:991][758]LogSavePackage: Save=2802.40ms
+[2018.04.22-08.48.39:991][758]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData106744C24FF8BEADA1F1B1B42C9E5C98.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-08.48.40:051][758]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-08.49.02:938][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-08.49.03:462][291]LogSavePackage: Save=510.20ms
+[2018.04.22-08.49.03:462][291]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels2DBB2F7B472829DBFC0CCFBC42942748.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-08.49.03:465][291]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-08.49.03:486][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-08.49.06:331][291]LogSavePackage: Save=2843.07ms
+[2018.04.22-08.49.06:331][291]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData3ED82C08495EE1917F96ECB8E5085D8D.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-08.49.06:345][291]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-08.50.08:503][124]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.04.22-08.52.26:094][562]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2018.04.22-08.52.26:105][562]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.22-08.52.28:708][817]Cmd: TRANSACTION UNDO
+[2018.04.22-08.52.28:708][817]LogEditorTransaction: Undo Delete selection
+[2018.04.22-08.52.31:032][  8]Cmd: DELETE
+[2018.04.22-08.52.31:032][  8]Cmd: ACTOR DELETE
+[2018.04.22-08.52.31:038][  8]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2018.04.22-08.52.31:051][  8]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.22-08.52.32:940][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-08.52.33:484][179]LogSavePackage: Save=529.28ms
+[2018.04.22-08.52.33:484][179]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels6EB126C64975FD037B19048BB047F69F.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-08.52.33:487][179]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-08.52.33:511][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-08.52.36:433][179]LogSavePackage: Save=2919.33ms
+[2018.04.22-08.52.36:433][179]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltDataDF6CCA63481E25EAECBDB1891EE068E3.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-08.52.36:529][179]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-08.53.07:414][ 97]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.04.22-08.53.07:424][ 97]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.22-08.53.10:050][350]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.22-08.53.14:337][603]LogEditorActor: Deleted Actor: SkyLight
+[2018.04.22-08.53.14:347][603]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.22-08.53.15:813][748]Cmd: TRANSACTION UNDO
+[2018.04.22-08.53.15:813][748]LogEditorTransaction: Undo Delete selection
+[2018.04.22-08.53.36:506][916]LogEditorActor: Deleted Actor: SpotLight
+[2018.04.22-08.53.36:518][916]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.22-08.53.54:797][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-08.53.55:311][694]LogSavePackage: Save=495.77ms
+[2018.04.22-08.53.55:311][694]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsAC623BA544C1DE656DB4BDB3AC6FF668.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-08.53.55:315][694]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-08.53.55:338][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-08.53.58:290][694]LogSavePackage: Save=2826.05ms
+[2018.04.22-08.53.58:290][694]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData9B30528D43E6B2DBB412599D3161D3A5.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-08.53.58:337][694]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-10.00.22:863][746]LogContentStreaming: Texture pool size now 600 MB
+[2018.04.22-10.00.23:867][772]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:366600).
+[2018.04.22-10.00.57:792][469]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:368298).
+[2018.04.22-10.00.58:254][492]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:368321).
+[2018.04.22-10.00.58:816][520]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:368349).
+[2018.04.22-10.00.59:728][566]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.22-10.01.00:148][587]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.22-10.01.01:121][636]LogContentStreaming: Texture pool size now 600 MB
+[2018.04.22-10.01.26:187][809]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.22-10.01.26:247][810]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GreyBoxLevel1
+[2018.04.22-10.01.26:247][810]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.22-10.01.26:247][810]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.04.22-10.01.26:247][810]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.22-10.01.26:247][810]LogTemp: BranchPath = GR00VY-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = GR00VY-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.04.22-10.01.26:284][811]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gr00vy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.22-10.37.08:168][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.22-10.37.36:556][169]LogSavePackage: Save=508.13ms
+[2018.04.22-10.37.36:557][169]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_Auto590203109456E6353618306BB5238D3AE.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto5.umap'
+[2018.04.22-10.37.36:558][169]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_Auto5.umap
+[2018.04.22-10.37.36:560][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.530
+[2018.04.22-10.37.36:560][169]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.530
+[2018.04.22-11.53.45:874][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-11.53.46:397][541]LogSavePackage: Save=502.61ms
+[2018.04.22-11.53.46:397][541]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsB6461B604196BFFEA2995A9264242887.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-11.53.46:404][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-11.53.46:430][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-11.53.49:269][541]LogSavePackage: Save=2742.18ms
+[2018.04.22-11.53.49:269][541]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltDataB6C4F97D4C4D13F25B184D8B8110B048.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-11.53.49:324][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
+[2018.04.22-12.21.07:963][643]Job is a success!
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.185s
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:      Indirection Texture 112x112x112 = 5.4Mb
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:      BrickData 1280x30x5 = 6.0Mb (trimmed 9.0Mb due to 1.0Mb MaximumBrickMemoryMb)
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:          0: 22.8% covering 100.0% of volume
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:          1: 77.2% covering 5.3% of volume
+[2018.04.22-12.21.08:522][644]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 4096X2048)
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 4096X4096)
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 4096X4096)
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.04.22-12.21.25:111][644]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.04.22-12.21.25:140][644]Lightmass on GR00VY-PC: 6:24:28 hours total, 435 ms importing, 1.80 sec setup, 37.7 sec photons, 6:23:48 hours processing, 0 ms extra exporting [493/493 mappings]. Threads: 44:46:40 hours total, 14:34 min processing.
+[2018.04.22-12.21.25:203][644]LogStaticLightingSystem: Illumination: 6:24:34 hours (14.3 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.04.22-12.21.25:203][644]LogStaticLightingSystem: Lightmap texture memory:  42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.04.22-12.21.25:203][644]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.04.22-12.21.26:233][644]DumpUnbuiltLightIteractions
+[2018.04.22-12.21.26:234][644]Lights with unbuilt interactions: 0
+[2018.04.22-12.21.26:234][644]
+[2018.04.22-12.21.26:234][644]Primitives with unbuilt interactions: 0
+[2018.04.22-12.21.26:246][645]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.22-12.21.26:246][645]MapCheck: New page: ThreeLevels - Apr 23, 2018, 8:21:26 AM
+[2018.04.22-12.21.26:324][645]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.427ms to complete.
+[2018.04.22-12.21.36:693][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThreeLevels' took 0.010
+[2018.04.22-12.21.36:695][676]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/ThreeLevels_BuiltData] ([1] browsable assets)...
+[2018.04.22-12.21.36:695][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/ThreeLevels_BuiltData]
+[2018.04.22-12.21.39:252][676]LogSavePackage: Save=2465.63ms
+[2018.04.22-12.21.39:252][676]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData_Auto6C57688DF4F2D962F9209E0ABA4034E18.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_BuiltData_Auto6.uasset'
+[2018.04.22-12.21.39:255][676]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Autosaves/Game/Maps/ThreeLevels_BuiltData_Auto6.uasset
+[2018.04.22-12.21.39:255][676]LogFileHelpers: Auto-saving content packages took 2.560
+[2018.04.22-12.21.53:047][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.22-12.21.53:408][ 47]LogSavePackage: Save=347.51ms
+[2018.04.22-12.21.53:408][ 47]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels7E4F4D634641F4B098C636907CB836C4.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.22-12.21.53:411][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.22-12.21.53:428][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels_BuiltData" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset" SILENT=true
+[2018.04.22-12.21.56:054][ 47]LogSavePackage: Save=2624.67ms
+[2018.04.22-12.21.56:055][ 47]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels_BuiltData005735804975973EB463EF941DA5558F.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset'
+[2018.04.22-12.21.56:139][ 47]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels_BuiltData.uasset
