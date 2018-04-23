@@ -1,4 +1,4 @@
-﻿Log file open, 04/23/18 18:08:55
+﻿Log file open, 04/23/18 18:13:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GreyBox_Level1
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1547307499) SRandInit(-1547307499).
+LogInit: Display: RandInit(-628523457) SRandInit(-628523457).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.172024
+LogStats: Stats thread started at 0.173161
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,181 +194,818 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.23-08.08.56:848][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.23-08.08.56:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.23-08.08.56:857][  0]LogInit: Computer: GR00VY-PC
-[2018.04.23-08.08.56:857][  0]LogInit: User: Gr00vy
-[2018.04.23-08.08.56:857][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.23-08.08.56:857][  0]LogInit: High frequency timer resolution =3.318389 MHz
-[2018.04.23-08.08.56:857][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2018.04.23-08.08.56:857][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.23-08.08.56:857][  0]LogMemory: Process Physical Memory: 273.62 MB used, 273.62 MB peak
-[2018.04.23-08.08.56:857][  0]LogMemory: Process Virtual Memory: 271.93 MB used, 271.93 MB peak
-[2018.04.23-08.08.56:857][  0]LogMemory: Physical Memory: 5038.80 MB used,  19475.54 MB free, 24514.34 MB total
-[2018.04.23-08.08.56:857][  0]LogMemory: Virtual Memory: 684.52 MB used,  19475.54 MB free, 134217728.00 MB total
-[2018.04.23-08.08.57:047][  0]LogInit: Using OS detected language (en-US).
-[2018.04.23-08.08.57:047][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.23-08.08.57:050][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.23-08.08.57:446][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.23-08.08.57:690][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.23-08.08.57:736][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.04.23-08.08.57:736][  0]LogD3D11RHI:       8088/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.23-08.08.57:738][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.23-08.08.57:738][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.23-08.08.57:738][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.23-08.08.57:744][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.23-08.08.57:745][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.23-08.08.57:745][  0]LogWindows: EnumDisplayDevices:
-[2018.04.23-08.08.57:745][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.04.23-08.08.57:745][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.23-08.08.57:745][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.23-08.08.57:745][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.23-08.08.57:745][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.23-08.08.57:745][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.04.23-08.08.57:745][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.23-08.08.57:745][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.23-08.08.57:745][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2018.04.23-08.08.57:777][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.23-08.08.57:794][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.23-08.08.57:841][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/1928/).
-[2018.04.23-08.08.57:841][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gr00vy/AppData/Local/Temp/UnrealShaderWorkingDir/6ACE428F455224323F18CF94675C220F/'.
-[2018.04.23-08.08.57:841][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.23-08.08.58:745][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.23-08.08.58:801][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.23-08.08.58:858][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.23-08.08.58:913][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.23-08.08.58:970][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.23-08.08.59:026][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.23-08.08.59:082][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.23-08.08.59:139][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.23-08.08.59:190][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.23-08.08.59:244][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.23-08.08.59:299][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.23-08.08.59:355][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.23-08.08.59:409][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.23-08.08.59:464][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.23-08.08.59:578][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.23-08.08.59:578][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.23-08.08.59:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.23-08.08.59:678][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.23-08.08.59:775][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.23-08.08.59:803][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.23-08.08.59:859][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.23-08.08.59:914][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.23-08.08.59:968][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.23-08.09.00:025][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.23-08.09.00:025][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.23-08.09.00:544][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.23-08.09.00:616][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.23-08.09.00:616][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.23-08.09.00:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.23-08.09.00:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.23-08.09.00:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.23-08.09.00:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.23-08.09.00:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.23-08.09.00:648][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gr00vy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.23-08.09.00:658][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.23-08.09.00:658][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.23-08.09.00:659][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.23-08.09.00:659][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.23-08.09.01:026][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.23-08.09.01:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.23-08.09.01:430][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.23-08.09.01:430][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.23-08.09.01:430][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.23-08.09.01:430][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.23-08.09.01:430][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.23-08.09.01:457][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2103691337)
-[2018.04.23-08.09.01:628][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
-[2018.04.23-08.09.02:116][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.063911 seconds
-[2018.04.23-08.09.02:122][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.23-08.09.02:122][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.04.23-08.09.02:122][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.23-08.09.02:178][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.23-08.09.05:038][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.23-08.09.05:082][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.23-08.09.05:831][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.23-08.09.06:318][  0]SourceControl: Source control is disabled
-[2018.04.23-08.09.06:318][  0]SourceControl: Source control is disabled
-[2018.04.23-08.09.06:376][  0]SourceControl: Source control is disabled
-[2018.04.23-08.09.06:436][  0]SourceControl: Source control is disabled
-[2018.04.23-08.09.07:357][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.23-08.09.07:656][  0]LogOcInput: OculusInput pre-init called
-[2018.04.23-08.09.07:989][  0]LogEngine: Initializing Engine...
-[2018.04.23-08.09.07:991][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.23-08.09.08:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.23-08.09.08:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.23-08.09.08:351][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.23-08.09.08:358][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.23-08.09.08:372][  0]LogInit: FAudioDevice initialized.
-[2018.04.23-08.09.08:476][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.23-08.09.08:490][  0]LogInit: Texture streaming: Enabled
-[2018.04.23-08.09.08:600][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.23-08.09.08:751][  0]LogInit: Transaction tracking system initialized
-[2018.04.23-08.09.09:108][  0]BlueprintLog: New page: Editor Load
-[2018.04.23-08.09.10:123][  0]LocalizationService: Localization service is disabled
-[2018.04.23-08.09.11:257][  0]LogConsoleResponse: Display: 
-[2018.04.23-08.09.11:430][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.23-08.09.11:430][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.23-08.09.11:430][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.23-08.09.12:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.02s
-[2018.04.23-08.09.12:757][  0]SourceControl: Source control is disabled
-[2018.04.23-08.09.12:758][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.23-08.09.12:758][  0]LightingResults: New page: Lighting Build
-[2018.04.23-08.09.12:805][  0]MapCheck: New page: Map Check
-[2018.04.23-08.09.12:805][  0]LightingResults: New page: Lighting Build
-[2018.04.23-08.09.12:981][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.04.23-08.09.12:987][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.23-08.09.12:999][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.23-08.09.13:052][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.688ms to complete.
-[2018.04.23-08.09.13:052][  0]LogFileHelpers: Loading map 'Template_Default' took 0.295
-[2018.04.23-08.09.13:113][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.23-08.09.13:201][  0]LogCollectionManager: Loaded 0 collections in 0.002008 seconds
-[2018.04.23-08.09.13:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
-[2018.04.23-08.09.13:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' took 0.01s
-[2018.04.23-08.09.13:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
-[2018.04.23-08.09.13:284][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.23-08.09.13:293][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2363 classes and 519 folders.
-[2018.04.23-08.09.13:363][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.23-08.09.13:401][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.23-08.09.13:450][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.04.23-08.09.13:508][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.23-08.09.13:512][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.23-08.09.13:520][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.23-08.09.13:617][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
-[2018.04.23-08.09.13:783][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.04.23-08.09.13:783][  0]LogLoad: (Engine Initialization) Total time: 19.23 seconds
-[2018.04.23-08.09.13:783][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.23-08.09.13:783][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.04.23-08.09.13:783][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.04.23-08.09.13:823][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.04.23-08.09.13:854][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.23-08.09.13:865][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.06s
-[2018.04.23-08.09.13:872][  1]LogAssetRegistry: Asset discovery search completed in 12.2659 seconds
-[2018.04.23-08.09.13:874][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.23-08.09.13:874][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2018.04.23-08.09.17:042][366]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.23-08.09.17:445][366]LogAIModule: Creating AISystem for world ThreeLevels
-[2018.04.23-08.09.17:457][366]LogMaterial: Warning: Material /Game/ForestSet/Materials/M_TreeBark01.M_TreeBark01 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2018.04.23-08.09.17:458][366]LogMaterial: Missing cached shader map for material M_TreeBark01, compiling. 
-[2018.04.23-08.09.17:549][366]MapCheck: Warning: M_TreeBark01 Material /Game/ForestSet/Materials/M_TreeBark01.M_TreeBark01 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.04.23-08.09.17:583][366]Cmd: MAP LOAD FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.23-08.09.17:584][366]LightingResults: New page: Lighting Build
-[2018.04.23-08.09.17:584][366]LoadErrors: New page: Loading map: ThreeLevels.umap
-[2018.04.23-08.09.17:585][366]MapCheck: New page: Map Check
-[2018.04.23-08.09.17:585][366]LightingResults: New page: Lighting Build
-[2018.04.23-08.09.17:712][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.23-08.09.17:746][366]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.23-08.09.17:830][366]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.84ms to complete.
-[2018.04.23-08.09.17:832][366]LogFileHelpers: Loading map 'ThreeLevels' took 0.249
-[2018.04.23-08.09.17:891][368]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2018.04.23-08.09.21:354][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lake)
-[2018.04.23-08.09.30:173][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.23-08.09.30:896][200]LogSavePackage: Save=706.75ms
-[2018.04.23-08.09.30:896][200]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsC9B2E24747BAC719E744AEABF572B68E.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
-[2018.04.23-08.09.30:899][200]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
-[2018.04.23-08.09.31:980][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.23-08.09.32:648][282]LogSavePackage: Save=656.50ms
-[2018.04.23-08.09.32:648][282]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevelsA00D81C0449A54173FA35096B3407D7C.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
-[2018.04.23-08.09.32:652][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
-[2018.04.23-08.09.41:772][120]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Lake)
+[2018.04.23-08.13.33:714][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.23-08.13.33:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.23-08.13.33:723][  0]LogInit: Computer: GR00VY-PC
+[2018.04.23-08.13.33:723][  0]LogInit: User: Gr00vy
+[2018.04.23-08.13.33:723][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.23-08.13.33:723][  0]LogInit: High frequency timer resolution =3.318389 MHz
+[2018.04.23-08.13.33:723][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2018.04.23-08.13.33:723][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.23-08.13.33:724][  0]LogMemory: Process Physical Memory: 273.51 MB used, 273.51 MB peak
+[2018.04.23-08.13.33:724][  0]LogMemory: Process Virtual Memory: 271.82 MB used, 271.82 MB peak
+[2018.04.23-08.13.33:724][  0]LogMemory: Physical Memory: 5416.51 MB used,  19097.82 MB free, 24514.34 MB total
+[2018.04.23-08.13.33:724][  0]LogMemory: Virtual Memory: 684.52 MB used,  19097.82 MB free, 134217728.00 MB total
+[2018.04.23-08.13.33:902][  0]LogInit: Using OS detected language (en-US).
+[2018.04.23-08.13.33:902][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.23-08.13.33:905][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.23-08.13.34:301][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.23-08.13.34:553][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.23-08.13.34:599][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.04.23-08.13.34:599][  0]LogD3D11RHI:       8088/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.23-08.13.34:601][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.23-08.13.34:601][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.23-08.13.34:601][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.23-08.13.34:607][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.23-08.13.34:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.23-08.13.34:607][  0]LogWindows: EnumDisplayDevices:
+[2018.04.23-08.13.34:607][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.04.23-08.13.34:608][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.23-08.13.34:608][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.23-08.13.34:608][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.23-08.13.34:608][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.23-08.13.34:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.04.23-08.13.34:608][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.23-08.13.34:608][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.23-08.13.34:608][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.04.23-08.13.34:640][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.23-08.13.34:656][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.23-08.13.34:702][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Intermediate/Shaders/WorkingDirectory/1448/).
+[2018.04.23-08.13.34:702][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gr00vy/AppData/Local/Temp/UnrealShaderWorkingDir/58B2A82E461CAC7415EDDA8F1E473922/'.
+[2018.04.23-08.13.34:702][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.23-08.13.35:644][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.23-08.13.35:701][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.23-08.13.35:763][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.23-08.13.35:829][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.23-08.13.35:884][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.23-08.13.35:945][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.23-08.13.36:007][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.23-08.13.36:068][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.23-08.13.36:121][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.23-08.13.36:179][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.23-08.13.36:236][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.23-08.13.36:291][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.23-08.13.36:346][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.23-08.13.36:403][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.23-08.13.36:513][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.23-08.13.36:513][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.23-08.13.36:573][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.23-08.13.36:619][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.23-08.13.36:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.23-08.13.36:748][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.23-08.13.36:809][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.23-08.13.36:872][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.23-08.13.36:926][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.23-08.13.36:990][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.23-08.13.36:990][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.23-08.13.37:502][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.23-08.13.37:571][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.23-08.13.37:572][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.23-08.13.37:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.23-08.13.37:572][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.23-08.13.37:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.23-08.13.37:572][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.23-08.13.37:587][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.23-08.13.37:599][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gr00vy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.23-08.13.37:609][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.23-08.13.37:609][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.23-08.13.37:609][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.23-08.13.37:609][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.23-08.13.37:982][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.23-08.13.38:344][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.23-08.13.38:391][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.23-08.13.38:391][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.23-08.13.38:391][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.23-08.13.38:391][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.23-08.13.38:391][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.23-08.13.38:416][  0]LogNetVersion: GreyBox_Level1 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2103691337)
+[2018.04.23-08.13.38:590][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.04.23-08.13.39:118][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.077709 seconds
+[2018.04.23-08.13.39:124][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.23-08.13.39:124][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.23-08.13.39:124][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.23-08.13.39:190][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.23-08.13.42:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.23-08.13.42:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.23-08.13.42:892][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.23-08.13.43:377][  0]SourceControl: Source control is disabled
+[2018.04.23-08.13.43:377][  0]SourceControl: Source control is disabled
+[2018.04.23-08.13.43:444][  0]SourceControl: Source control is disabled
+[2018.04.23-08.13.43:502][  0]SourceControl: Source control is disabled
+[2018.04.23-08.13.44:418][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.23-08.13.44:736][  0]LogOcInput: OculusInput pre-init called
+[2018.04.23-08.13.45:069][  0]LogEngine: Initializing Engine...
+[2018.04.23-08.13.45:071][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.23-08.13.45:271][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.23-08.13.45:271][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.23-08.13.45:412][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.23-08.13.45:420][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.23-08.13.45:434][  0]LogInit: FAudioDevice initialized.
+[2018.04.23-08.13.45:576][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Gr00vy/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.23-08.13.45:587][  0]LogInit: Texture streaming: Enabled
+[2018.04.23-08.13.45:700][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.23-08.13.45:854][  0]LogInit: Transaction tracking system initialized
+[2018.04.23-08.13.46:209][  0]BlueprintLog: New page: Editor Load
+[2018.04.23-08.13.47:239][  0]LocalizationService: Localization service is disabled
+[2018.04.23-08.13.48:373][  0]LogConsoleResponse: Display: 
+[2018.04.23-08.13.48:543][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.23-08.13.48:543][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.23-08.13.48:543][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.23-08.13.49:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.02s
+[2018.04.23-08.13.49:866][  0]SourceControl: Source control is disabled
+[2018.04.23-08.13.49:867][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.23-08.13.49:867][  0]LightingResults: New page: Lighting Build
+[2018.04.23-08.13.49:915][  0]MapCheck: New page: Map Check
+[2018.04.23-08.13.49:915][  0]LightingResults: New page: Lighting Build
+[2018.04.23-08.13.50:107][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.04.23-08.13.50:113][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.23-08.13.50:125][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.23-08.13.50:181][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.591ms to complete.
+[2018.04.23-08.13.50:181][  0]LogFileHelpers: Loading map 'Template_Default' took 0.315
+[2018.04.23-08.13.50:234][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.23-08.13.50:315][  0]LogCollectionManager: Loaded 0 collections in 0.001890 seconds
+[2018.04.23-08.13.50:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/Collections/' took 0.01s
+[2018.04.23-08.13.50:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Developers/Gr00vy/Collections/' took 0.01s
+[2018.04.23-08.13.50:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Collections/' took 0.01s
+[2018.04.23-08.13.50:398][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.23-08.13.50:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2363 classes and 519 folders.
+[2018.04.23-08.13.50:485][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.23-08.13.50:526][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.23-08.13.50:578][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.23-08.13.50:637][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.23-08.13.50:639][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.23-08.13.50:645][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.23-08.13.50:737][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 9 NumSamples 1 (Frame:1).
+[2018.04.23-08.13.50:890][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.23-08.13.50:890][  0]LogLoad: (Engine Initialization) Total time: 19.46 seconds
+[2018.04.23-08.13.50:890][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.23-08.13.50:890][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.23-08.13.50:890][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.23-08.13.50:930][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.23-08.13.50:964][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.23-08.13.50:974][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/' took 0.06s
+[2018.04.23-08.13.50:980][  1]LogAssetRegistry: Asset discovery search completed in 12.4126 seconds
+[2018.04.23-08.13.50:982][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.23-08.13.50:982][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2018.04.23-08.13.54:647][424]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.23-08.13.55:048][424]LogAIModule: Creating AISystem for world ThreeLevels
+[2018.04.23-08.13.55:060][424]LogMaterial: Warning: Material /Game/ForestSet/Materials/M_TreeBark01.M_TreeBark01 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.04.23-08.13.55:062][424]LogMaterial: Missing cached shader map for material M_TreeBark01, compiling. 
+[2018.04.23-08.13.55:155][424]MapCheck: Warning: M_TreeBark01 Material /Game/ForestSet/Materials/M_TreeBark01.M_TreeBark01 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.04.23-08.13.55:191][424]Cmd: MAP LOAD FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.23-08.13.55:191][424]LightingResults: New page: Lighting Build
+[2018.04.23-08.13.55:192][424]LoadErrors: New page: Loading map: ThreeLevels.umap
+[2018.04.23-08.13.55:193][424]MapCheck: New page: Map Check
+[2018.04.23-08.13.55:193][424]LightingResults: New page: Lighting Build
+[2018.04.23-08.13.55:324][424]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.23-08.13.55:362][424]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.23-08.13.55:455][424]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.298ms to complete.
+[2018.04.23-08.13.55:457][424]LogFileHelpers: Loading map 'ThreeLevels' took 0.268
+[2018.04.23-08.13.55:520][426]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.04.23-08.13.57:796][591]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor2)
+[2018.04.23-08.13.59:275][704]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.23-08.14.06:874][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.23-08.14.07:612][280]LogSavePackage: Save=726.89ms
+[2018.04.23-08.14.07:612][280]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels887E5A214375A11CA922F48790B4A96B.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.23-08.14.07:616][280]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.23-08.15.35:593][265]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.04.23-08.15.35:645][265]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2018.04.23-08.15.50:654][265]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.04.23-08.15.50:655][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Materials\M_Rock_Basalt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:655][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:655][265]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 0)
+[2018.04.23-08.15.50:657][265]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.04.23-08.15.50:658][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Materials\M_Rock_Basalt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:658][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:660][265]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.04.23-08.15.50:661][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Materials\M_Rock_Basalt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:661][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:663][265]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2018.04.23-08.15.50:664][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Materials\M_Rock_Basalt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:664][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:672][265]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2018.04.23-08.15.50:672][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Props\Materials\M_Rock.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:672][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:675][265]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2018.04.23-08.15.50:676][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Props\Materials\M_Rock.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:676][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:678][265]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2018.04.23-08.15.50:679][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Props\Materials\M_Rock.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:679][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.50:682][265]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2018.04.23-08.15.50:683][265]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Environment\Props\Materials\M_Rock.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.15.50:683][265]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.23-08.15.58:480][839]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.23-08.15.58:564][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:564][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:564][839]LoadErrors: Error: /Game/WaterPlane/Maps/LakeWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Props/SM_Rock
+[2018.04.23-08.15.58:564][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.15.58:564][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:564][839]LoadErrors: Error: /Game/WaterPlane/Maps/LakeWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N
+[2018.04.23-08.15.58:564][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.15.58:565][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:565][839]LoadErrors: Error: /Game/WaterPlane/Maps/LakeWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D
+[2018.04.23-08.15.58:565][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.15.58:565][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:565][839]LoadErrors: Error: /Game/WaterPlane/Maps/LakeWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_M
+[2018.04.23-08.15.58:565][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.15.58:565][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:565][839]LoadErrors: Error: /Game/WaterPlane/Maps/LakeWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_N
+[2018.04.23-08.15.58:566][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:566][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:567][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.15.58:568][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/LakeWater_Example.umap.
+[2018.04.23-08.15.58:569][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:569][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:570][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.15.58:571][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.15.58:586][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.15.58:586][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_RockMesh_N.T_RockMesh_N Referenced by PersistentLevel
+[2018.04.23-08.15.58:586][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.15.58:586][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.15.58:586][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N.T_Detail_Rocky_N Referenced by PersistentLevel
+[2018.04.23-08.15.58:586][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.15.58:587][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.15.58:587][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D.T_Rock_Basalt_D Referenced by PersistentLevel
+[2018.04.23-08.15.58:587][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.15.58:587][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.15.58:587][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_RockMesh_M.T_RockMesh_M Referenced by PersistentLevel
+[2018.04.23-08.15.58:587][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.15.58:598][839]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:598][839]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:598][839]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:598][839]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:599][839]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:599][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:599][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock10
+[2018.04.23-08.15.58:599][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:599][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:599][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock11
+[2018.04.23-08.15.58:599][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:600][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:600][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock12
+[2018.04.23-08.15.58:600][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:600][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:600][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock13
+[2018.04.23-08.15.58:600][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:601][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:601][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock14
+[2018.04.23-08.15.58:601][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:602][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:602][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock15
+[2018.04.23-08.15.58:602][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:602][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:602][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock16
+[2018.04.23-08.15.58:602][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:603][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:603][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock17
+[2018.04.23-08.15.58:603][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:603][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:603][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock18
+[2018.04.23-08.15.58:604][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:604][839]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 64X64)
+[2018.04.23-08.15.58:604][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:604][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock19
+[2018.04.23-08.15.58:604][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:605][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:605][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock2
+[2018.04.23-08.15.58:605][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:605][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:605][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock20
+[2018.04.23-08.15.58:606][839]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:606][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:606][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:606][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock21
+[2018.04.23-08.15.58:606][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:606][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:607][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock22
+[2018.04.23-08.15.58:607][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:607][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:607][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock23
+[2018.04.23-08.15.58:607][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:608][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:608][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock24
+[2018.04.23-08.15.58:608][839]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:608][839]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:608][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:608][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:609][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock25
+[2018.04.23-08.15.58:609][839]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.04.23-08.15.58:609][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:609][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:609][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock3
+[2018.04.23-08.15.58:609][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:610][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:610][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock4
+[2018.04.23-08.15.58:610][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:610][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:610][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock5
+[2018.04.23-08.15.58:610][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:611][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:611][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock6
+[2018.04.23-08.15.58:611][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:611][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:612][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock7
+[2018.04.23-08.15.58:612][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:612][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:612][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock8
+[2018.04.23-08.15.58:612][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:613][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:613][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock9
+[2018.04.23-08.15.58:613][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:613][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.15.58:613][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock_5
+[2018.04.23-08.15.58:614][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: T_LargeWaves_H (G8, 1024X1024)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: LightMapTexture2D_33 (AutoDXT, 256X256)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: LightMapTexture2D_34 (AutoDXT, 128X128)
+[2018.04.23-08.15.58:668][839]LogTexture: Display: Building textures: T_LargeWaves_N (BC5, 1024X1024)
+[2018.04.23-08.16.01:420][839]LogTexture: Display: Building textures: LightMapTexture2D_35 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_37 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_38 (AutoDXT, 64X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_39 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_44 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_55 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_58 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_36 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_59 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_60 (AutoDXT, 256X256)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_61 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_62 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LightMapTexture2D_63 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 64X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 64X32)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 256X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 64X32)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 256X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 128X64)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 256X128)
+[2018.04.23-08.16.01:421][839]LogTexture: Display: Building textures: T_Seafoam_01 (AutoDXT, 2048X2048)
+[2018.04.23-08.16.01:421][839]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.01:577][839]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.01:690][839]LogStaticMesh: Building static mesh SM_OceanWater...
+[2018.04.23-08.16.01:710][839]LogStaticMesh: Built static mesh [0.02s] /Game/WaterPlane/Meshes/SM_OceanWater.SM_OceanWater
+[2018.04.23-08.16.01:725][839]LogAIModule: Creating AISystem for world LakeWater_Example
+[2018.04.23-08.16.01:725][839]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/LakeWater_Example.LakeWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.23-08.16.01:762][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:762][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:762][839]LoadErrors: Error: /Game/WaterPlane/Maps/OceanWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Props/SM_Rock
+[2018.04.23-08.16.01:762][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:762][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:762][839]LoadErrors: Error: /Game/WaterPlane/Maps/OceanWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N
+[2018.04.23-08.16.01:762][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:763][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:763][839]LoadErrors: Error: /Game/WaterPlane/Maps/OceanWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D
+[2018.04.23-08.16.01:763][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:763][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:763][839]LoadErrors: Error: /Game/WaterPlane/Maps/OceanWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_M
+[2018.04.23-08.16.01:763][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:763][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:763][839]LoadErrors: Error: /Game/WaterPlane/Maps/OceanWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_N
+[2018.04.23-08.16.01:765][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:765][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:767][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:768][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:768][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/OceanWater_Example.umap.
+[2018.04.23-08.16.01:769][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:769][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:769][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:769][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.01:769][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.01:770][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:771][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.01:771][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:771][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.01:771][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:771][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.01:782][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:782][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.01:782][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:782][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.01:783][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:783][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.01:783][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:783][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:790][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:791][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:791][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:792][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:792][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:792][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:792][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:793][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:793][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:793][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:793][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:794][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 64X64)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.04.23-08.16.01:848][839]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.04.23-08.16.01:848][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:848][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:848][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:849][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:849][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:849][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:849][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:849][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:850][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:850][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:850][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:850][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:851][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:851][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:851][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:852][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:852][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:852][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:852][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:853][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:853][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:853][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:853][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:854][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:854][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:854][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:855][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:855][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:855][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:856][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:856][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:856][839]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.04.23-08.16.01:856][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:857][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:857][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:857][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:857][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:858][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:858][839]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.04.23-08.16.01:858][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 64X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 256X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (BGRA8, 256X128)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 128X64)
+[2018.04.23-08.16.01:926][839]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (BGRA8, 128X64)
+[2018.04.23-08.16.01:927][839]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (BGRA8, 64X32)
+[2018.04.23-08.16.01:927][839]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 128X64)
+[2018.04.23-08.16.01:928][839]LogAIModule: Creating AISystem for world OceanWater_Example
+[2018.04.23-08.16.01:929][839]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/OceanWater_Example.OceanWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.23-08.16.01:945][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.04.23-08.16.01:945][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Translucent/Materials/M_TranslucentWater.uasset.
+[2018.04.23-08.16.01:945][839]LoadErrors: Error: /Game/WaterPlane/Translucent/Materials/M_TranslucentWater : Can't find file for asset. /Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight
+[2018.04.23-08.16.01:947][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.04.23-08.16.01:947][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Translucent/Materials/M_TranslucentWater.uasset.
+[2018.04.23-08.16.01:978][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.01:979][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:979][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Materials/M_Rock_Basalt
+[2018.04.23-08.16.01:982][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.01:982][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:983][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:983][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:983][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Props/SM_Rock
+[2018.04.23-08.16.01:983][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:983][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:983][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N
+[2018.04.23-08.16.01:984][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_MacroVariation'
+[2018.04.23-08.16.01:984][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_MacroVariation' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:984][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_MacroVariation
+[2018.04.23-08.16.01:984][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M'
+[2018.04.23-08.16.01:984][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:984][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M
+[2018.04.23-08.16.01:984][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:985][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:985][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D
+[2018.04.23-08.16.01:985][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N'
+[2018.04.23-08.16.01:985][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:985][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N
+[2018.04.23-08.16.01:985][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:985][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:986][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_M
+[2018.04.23-08.16.01:986][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:986][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:986][839]LoadErrors: Error: /Game/WaterPlane/Maps/TranslucentWater_Example : Can't find file for asset. /Game/WaterPlane/Environment/Textures/T_RockMesh_N
+[2018.04.23-08.16.01:988][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:988][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:990][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:990][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:990][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_MacroVariation'
+[2018.04.23-08.16.01:990][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_MacroVariation' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:991][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M'
+[2018.04.23-08.16.01:991][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:991][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:991][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:991][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N'
+[2018.04.23-08.16.01:992][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:992][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:992][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:992][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:992][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Maps/TranslucentWater_Example.umap.
+[2018.04.23-08.16.01:994][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.01:994][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading NULL.
+[2018.04.23-08.16.01:994][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading NULL.
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_MacroVariation'
+[2018.04.23-08.16.01:995][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_MacroVariation' while loading NULL.
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M'
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M' while loading NULL.
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N'
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N' while loading NULL.
+[2018.04.23-08.16.01:996][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.01:997][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_MacroVariation'
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_MacroVariation' while loading NULL.
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M'
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M' while loading NULL.
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.01:998][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N'
+[2018.04.23-08.16.01:999][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N' while loading NULL.
+[2018.04.23-08.16.01:999][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.01:999][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.01:999][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.01:999][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.02:023][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.04.23-08.16.02:024][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by MaterialExpressionTextureSampleParameterCube_0
+[2018.04.23-08.16.02:024][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/HDRI/HDRI_Epic_Courtyard_Daylight' while loading NULL.
+[2018.04.23-08.16.02:026][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.02:026][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Materials/M_Rock_Basalt.M_Rock_Basalt Referenced by Landscape_0
+[2018.04.23-08.16.02:026][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading NULL.
+[2018.04.23-08.16.02:039][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt'
+[2018.04.23-08.16.02:039][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Materials/M_Rock_Basalt.M_Rock_Basalt Referenced by LandscapeMaterialInstanceConstant_58
+[2018.04.23-08.16.02:040][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Materials/M_Rock_Basalt' while loading NULL.
+[2018.04.23-08.16.02:040][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N'
+[2018.04.23-08.16.02:041][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N.T_Rock_Basalt_N Referenced by PersistentLevel
+[2018.04.23-08.16.02:041][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_N' while loading NULL.
+[2018.04.23-08.16.02:041][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_MacroVariation'
+[2018.04.23-08.16.02:041][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_MacroVariation.T_MacroVariation Referenced by PersistentLevel
+[2018.04.23-08.16.02:041][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_MacroVariation' while loading NULL.
+[2018.04.23-08.16.02:042][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M'
+[2018.04.23-08.16.02:042][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by PersistentLevel
+[2018.04.23-08.16.02:042][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Perlin_Noise_M' while loading NULL.
+[2018.04.23-08.16.02:042][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D'
+[2018.04.23-08.16.02:042][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Rock_Basalt_D' while loading NULL.
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_N'
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_N' while loading NULL.
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N'
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_Detail_Rocky_N' while loading NULL.
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Textures/T_RockMesh_M'
+[2018.04.23-08.16.02:043][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Textures/T_RockMesh_M' while loading NULL.
+[2018.04.23-08.16.02:056][839]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:056][839]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:056][839]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:056][839]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:056][839]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:056][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:056][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:056][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:056][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:057][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:057][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:057][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:057][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:057][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:058][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:058][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:058][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:058][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:059][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:059][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:059][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:059][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:060][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:060][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:061][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:061][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:061][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:061][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:062][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:062][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:062][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:062][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:063][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:063][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:063][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:063][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:064][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:064][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:064][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:065][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:065][839]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:065][839]LoadErrors: Failed to load /Game/WaterPlane/Environment/Props/SM_Rock.SM_Rock Referenced by SM_Rock26
+[2018.04.23-08.16.02:066][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:066][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:066][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:067][839]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:067][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:089][839]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:089][839]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:089][839]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:089][839]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:089][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:089][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:090][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:090][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:091][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:091][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:091][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:092][839]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:092][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:092][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:092][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:092][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:093][839]LogLinker: Warning: Can't find file '/Game/WaterPlane/Environment/Props/SM_Rock'
+[2018.04.23-08.16.02:093][839]LogLinker: Warning: Can't find file for asset '/Game/WaterPlane/Environment/Props/SM_Rock' while loading NULL.
+[2018.04.23-08.16.02:093][839]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:097][839]LogMaterial: Missing cached shader map for material M_TranslucentWater, compiling. 
+[2018.04.23-08.16.02:099][839]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Translucent\Materials\M_TranslucentWater.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.16.02:099][839]LogMaterial: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2018.04.23-08.16.02:117][839]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.04.23-08.16.02:120][839]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.04.23-08.16.02:123][839]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.04.23-08.16.02:165][839]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.04.23-08.16.02:168][839]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2018.04.23-08.16.02:177][839]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.04.23-08.16.02:178][839]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (BGRA8, 256X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (BGRA8, 256X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_48 (BGRA8, 256X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_49 (BGRA8, 256X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_51 (BGRA8, 128X64)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_50 (BGRA8, 256X128)
+[2018.04.23-08.16.02:229][839]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (BGRA8, 256X128)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_54 (BGRA8, 256X128)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_56 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_57 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_58 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_59 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_61 (BGRA8, 128X64)
+[2018.04.23-08.16.02:230][839]LogTexture: Display: Building textures: ShadowMapTexture2D_60 (BGRA8, 128X64)
+[2018.04.23-08.16.02:244][839]LogAIModule: Creating AISystem for world TranslucentWater_Example
+[2018.04.23-08.16.02:245][839]LogActorComponent: RegisterComponentWithWorld: (/Game/WaterPlane/Maps/TranslucentWater_Example.TranslucentWater_Example:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.23-08.16.31:524][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lake)
+[2018.04.23-08.16.46:144][163]LogMaterial: Missing cached shader map for material FakedCaustics, compiling. 
+[2018.04.23-08.16.46:927][163]LogTexture: Display: Building textures: T_MicroWaves_N (BC5, 512X512)
+[2018.04.23-08.16.46:927][163]LogTexture: Display: Building textures: T_OceanFoam_01 (AutoDXT, 1024X1024)
+[2018.04.23-08.16.51:462][163]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.51:463][163]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Ocean\Materials\M_OceanWater_1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.16.51:463][163]LogMaterial: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2018.04.23-08.16.51:468][163]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.51:469][163]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Ocean\Materials\M_OceanWater_1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.16.51:469][163]LogMaterial: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2018.04.23-08.16.51:473][163]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.51:474][163]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Ocean\Materials\M_OceanWater_1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.16.51:474][163]LogMaterial: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2018.04.23-08.16.51:479][163]LogMaterial: Missing cached shader map for material M_OceanWater_1, compiling. 
+[2018.04.23-08.16.51:480][163]LogMaterial: Warning: C:\Users\Gr00vy\NoName.HereAfter\GreyBox_Level1\Content\WaterPlane\Ocean\Materials\M_OceanWater_1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.23-08.16.51:480][163]LogMaterial: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2018.04.23-08.16.51:482][163]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.BP_OceanWater_C_0.WaterSurface) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.23-08.16.58:256][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.BP_TranslucentWater_C_0.WaterSurface) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.23-08.17.01:522][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ThreeLevels" FILE="../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.23-08.17.02:200][799]LogSavePackage: Save=660.19ms
+[2018.04.23-08.17.02:200][799]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/ThreeLevels33A1CAE7402D4419C98097A14E952AA6.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap'
+[2018.04.23-08.17.02:203][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/Maps/ThreeLevels.umap
+[2018.04.23-08.17.03:501][926]LogSavePackage: Save=37.59ms
+[2018.04.23-08.17.03:501][926]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/BP_LakeWater47692C3C458352F3E811B98AA008C82F.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset'
+[2018.04.23-08.17.03:503][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Lake/Blueprint/BP_LakeWater.uasset
+[2018.04.23-08.17.03:534][926]LogSavePackage: Save=11.10ms
+[2018.04.23-08.17.03:534][926]LogSavePackage: Moving '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Saved/M_LakeWater_01_Inst3D161E6947F2FB7A07B1FD98A79E5349.tmp' to '../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset'
+[2018.04.23-08.17.03:536][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gr00vy/NoName.HereAfter/GreyBox_Level1/Content/WaterPlane/Lake/Materials/M_LakeWater_01_Inst.uasset
